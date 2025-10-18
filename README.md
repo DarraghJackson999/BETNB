@@ -2,6 +2,8 @@
 
 BETNB is a Polymarket-inspired prediction exchange experience tuned for the BNB Chain ecosystem. The UI showcases:
 
+- 📘 Documentation: https://docs.betnb.gitbook.io/betnb (replace with the live GitBook URL once published)
+
 - Realistic market catalogue with categories (politics, crypto, macro, sports, and more)
 - Rich market detail views featuring pricing charts, liquidity vitals, and contextual news
 - Interactive portfolio dashboard with simulated balances, PnL, and exposure analytics

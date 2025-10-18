@@ -17,6 +17,7 @@ const navLinks = [
   { label: 'Portfolio', href: '/portfolio' },
   { label: 'Insights', href: '/insights' },
   { label: 'Leaderboard', href: '/leaderboard' },
+  { label: 'Docs', href: 'https://docs.betnb.gitbook.io/betnb', external: true },
 ]
 
 export function SiteHeader() {
@@ -70,19 +71,39 @@ export function SiteHeader() {
           </Link>
 
           <nav className="hidden items-center gap-2 md:flex">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={cn(
-                  'rounded-full px-4 py-2 text-sm font-medium transition',
-                  'text-[#bfb59f] hover:text-[#fbd24d]',
-                  link.href === '/' && 'bg-[#1b170f]/80 text-[#f5f1e6]'
-                )}
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link) => {
+              const commonClasses = cn(
+                'rounded-full px-4 py-2 text-sm font-medium transition',
+                'text-[#bfb59f] hover:text-[#fbd24d]'
+              )
+
+              if (link.external) {
+                return (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={commonClasses}
+                  >
+                    {link.label}
+                  </a>
+                )
+              }
+
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={cn(
+                    commonClasses,
+                    link.href === '/' && 'bg-[#1b170f]/80 text-[#f5f1e6]'
+                  )}
+                >
+                  {link.label}
+                </Link>
+              )
+            })}
           </nav>
 
           <div className="hidden flex-1 items-center gap-2 lg:flex">
