@@ -9,6 +9,7 @@ const toc = [
   { label: 'Wallet & Security', href: '#wallet-security' },
   { label: 'Integrations & Partnerships', href: '#integrations-partnerships' },
   { label: 'Appendix', href: '#appendix' },
+  { label: 'Coin Address', href: '#coin-address' },
 ]
 
 export default function DocsPage() {
@@ -778,6 +779,19 @@ export default function DocsPage() {
               revision table whenever process or policy changes ship. A clean audit trail
               is a regulatory requirement.
             </div>
+          </div>
+        </section>
+
+        <section id="coin-address" className="space-y-6">
+          <h2 className="text-3xl font-semibold text-[#f5f1e6]">Coin Address</h2>
+          <p className="text-[#d9cfba]">
+            The official BETNB contract address will be published here once finalised.
+            Replace this placeholder with the confirmed address when available.
+          </p>
+          <div className="rounded-3xl border border-dashed border-[#fbd24d]/50 bg-[#141007] p-6 text-sm text-[#d9cfba]">
+            <span className="font-semibold text-[#fbd24d]">Pending:</span> awaiting the
+            production wallet confirmation from treasury before broadcasting the contract
+            location.
           </div>
         </section>
       </div>
