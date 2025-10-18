@@ -18,6 +18,7 @@ const navLinks = [
   { label: 'Insights', href: '/insights' },
   { label: 'Leaderboard', href: '/leaderboard' },
   { label: 'Docs', href: '/docs' },
+  { label: 'Twitter', href: 'https://x.com/bnbetlive', external: true },
 ]
 
 export function SiteHeader() {
