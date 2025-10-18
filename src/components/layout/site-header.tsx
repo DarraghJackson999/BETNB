@@ -17,7 +17,7 @@ const navLinks = [
   { label: 'Portfolio', href: '/portfolio' },
   { label: 'Insights', href: '/insights' },
   { label: 'Leaderboard', href: '/leaderboard' },
-  { label: 'Docs', href: 'https://docs.betnb.gitbook.io/betnb', external: true },
+  { label: 'Docs', href: '/docs' },
 ]
 
 export function SiteHeader() {
