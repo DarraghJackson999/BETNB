@@ -1,0 +1,2951 @@
+[
+  {
+    "id": "btc-up-today-utc-close",
+    "slug": "btc-up-today-utc-close",
+    "question": "Will BTC close higher today (UTC close vs prior UTC close)?",
+    "category": "Crypto",
+    "featured": true,
+    "liquidity": 18500,
+    "volume24h": 32600,
+    "openInterest": 14100,
+    "resolveDate": "2025-10-18T23:59:59Z",
+    "tags": ["BTC", "daily", "price"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.56,
+        "change": 0.04,
+        "liquidity": 9700,
+        "volume24h": 18200
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.44,
+        "change": -0.04,
+        "liquidity": 8800,
+        "volume24h": 14400
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:00:00Z",
+        "yesPrice": 0.49,
+        "noPrice": 0.51
+      },
+      {
+        "timestamp": "2025-10-18T19:00:00Z",
+        "yesPrice": 0.52,
+        "noPrice": 0.48
+      },
+      {
+        "timestamp": "2025-10-18T20:00:00Z",
+        "yesPrice": 0.54,
+        "noPrice": 0.46
+      },
+      {
+        "timestamp": "2025-10-18T21:00:00Z",
+        "yesPrice": 0.55,
+        "noPrice": 0.45
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.56,
+        "noPrice": 0.44
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "BTC ticks up on ETF flow chatter",
+        "source": "CoinDesk",
+        "timeAgo": "3h ago"
+      }
+    ],
+    "description": "Binary UP/DOWN market that settles on the BTC UTC daily close versus the prior day's close."
+  },
+  {
+    "id": "eth-up-today-utc-close",
+    "slug": "eth-up-today-utc-close",
+    "question": "Will ETH close higher today (UTC close vs prior UTC close)?",
+    "category": "Crypto",
+    "liquidity": 13200,
+    "volume24h": 21900,
+    "openInterest": 9100,
+    "resolveDate": "2025-10-18T23:59:59Z",
+    "tags": ["ETH", "daily", "price"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.48,
+        "change": -0.01,
+        "liquidity": 6600,
+        "volume24h": 11200
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.52,
+        "change": 0.01,
+        "liquidity": 6600,
+        "volume24h": 10700
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:00:00Z",
+        "yesPrice": 0.51,
+        "noPrice": 0.49
+      },
+      {
+        "timestamp": "2025-10-18T19:00:00Z",
+        "yesPrice": 0.5,
+        "noPrice": 0.5
+      },
+      {
+        "timestamp": "2025-10-18T20:00:00Z",
+        "yesPrice": 0.49,
+        "noPrice": 0.51
+      },
+      {
+        "timestamp": "2025-10-18T21:00:00Z",
+        "yesPrice": 0.48,
+        "noPrice": 0.52
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "ETH funding flips slightly negative",
+        "source": "The Block",
+        "timeAgo": "5h ago"
+      }
+    ],
+    "description": "Daily ETH UP/DOWN close relative to prior close."
+  },
+  {
+    "id": "bnb-up-today-utc-close",
+    "slug": "bnb-up-today-utc-close",
+    "question": "Will BNB close higher today (UTC close vs prior UTC close)?",
+    "category": "Crypto",
+    "liquidity": 8600,
+    "volume24h": 14800,
+    "openInterest": 7200,
+    "resolveDate": "2025-10-18T23:59:59Z",
+    "tags": ["BNB", "daily", "price"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.61,
+        "change": 0.03,
+        "liquidity": 4600,
+        "volume24h": 8200
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.39,
+        "change": -0.03,
+        "liquidity": 4000,
+        "volume24h": 6600
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:00:00Z",
+        "yesPrice": 0.55,
+        "noPrice": 0.45
+      },
+      {
+        "timestamp": "2025-10-18T20:00:00Z",
+        "yesPrice": 0.59,
+        "noPrice": 0.41
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.61,
+        "noPrice": 0.39
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "BNB edges higher with broader crypto",
+        "source": "Bloomberg Crypto",
+        "timeAgo": "2h ago"
+      }
+    ],
+    "description": "BNB daily UP/DOWN settlement on UTC close."
+  },
+  {
+    "id": "btc-hits-100k-before-eom",
+    "slug": "btc-hits-100k-before-eom",
+    "question": "Will BTC trade at or above $100,000 before the end of the month?",
+    "category": "Crypto",
+    "liquidity": 20400,
+    "volume24h": 28900,
+    "openInterest": 17600,
+    "resolveDate": "2025-10-31T23:59:59Z",
+    "tags": ["BTC", "round-number", "intraday"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.28,
+        "change": 0.02,
+        "liquidity": 10400,
+        "volume24h": 15100
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.72,
+        "change": -0.02,
+        "liquidity": 10000,
+        "volume24h": 13800
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:00:00Z",
+        "yesPrice": 0.25,
+        "noPrice": 0.75
+      },
+      {
+        "timestamp": "2025-10-18T21:00:00Z",
+        "yesPrice": 0.27,
+        "noPrice": 0.73
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.28,
+        "noPrice": 0.72
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Analysts debate path to six figures",
+        "source": "Cointelegraph",
+        "timeAgo": "7h ago"
+      }
+    ],
+    "description": "Resolves Yes if any reputable composite or index records >= $100,000 intraday before the deadline."
+  },
+  {
+    "id": "sol-reaches-300-before-yoy-end",
+    "slug": "sol-reaches-300-before-yoy-end",
+    "question": "Will SOL reach $300 before year-end?",
+    "category": "Crypto",
+    "liquidity": 12100,
+    "volume24h": 19700,
+    "openInterest": 9900,
+    "resolveDate": "2025-12-31T23:59:59Z",
+    "tags": ["SOL", "price", "intraday"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.41,
+        "change": -0.01,
+        "liquidity": 6100,
+        "volume24h": 10200
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.59,
+        "change": 0.01,
+        "liquidity": 6000,
+        "volume24h": 9500
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:00:00Z",
+        "yesPrice": 0.42,
+        "noPrice": 0.58
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.41,
+        "noPrice": 0.59
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "SOL ecosystem TVL climbs",
+        "source": "DefiLlama News",
+        "timeAgo": "6h ago"
+      }
+    ],
+    "description": "Yes if SOL touches $300 on any reputable price source before the stated deadline."
+  },
+  {
+    "id": "fed-next-decision-cut-hold-hike",
+    "slug": "fed-next-decision-cut-hold-hike",
+    "question": "What will the Fed do at the next FOMC meeting?",
+    "category": "Economy",
+    "liquidity": 9100,
+    "volume24h": 13200,
+    "openInterest": 7200,
+    "resolveDate": "2025-10-29T18:00:00Z",
+    "tags": ["FOMC", "rates", "macro"],
+    "options": [
+      {
+        "id": "cut",
+        "label": "Cut",
+        "price": 0.18,
+        "change": 0,
+        "liquidity": 2900,
+        "volume24h": 4100
+      },
+      {
+        "id": "hold",
+        "label": "Hold",
+        "price": 0.68,
+        "change": 0.01,
+        "liquidity": 4200,
+        "volume24h": 6000
+      },
+      {
+        "id": "hike",
+        "label": "Hike",
+        "price": 0.14,
+        "change": -0.01,
+        "liquidity": 2000,
+        "volume24h": 3100
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:00:00Z",
+        "yesPrice": 0.67,
+        "noPrice": 0.33
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.68,
+        "noPrice": 0.32
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Traders price in hold for October",
+        "source": "Reuters",
+        "timeAgo": "4h ago"
+      }
+    ],
+    "description": "Resolves to the policy rate action stated in the FOMC statement at decision time."
+  },
+  {
+    "id": "us-cpi-this-month-headline-mom",
+    "slug": "us-cpi-this-month-headline-mom",
+    "question": "Will US CPI headline this month be >= 0.4% m/m?",
+    "category": "Economy",
+    "liquidity": 7400,
+    "volume24h": 9800,
+    "openInterest": 5900,
+    "resolveDate": "2025-11-12T13:30:00Z",
+    "tags": ["CPI", "inflation", "BLS"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.33,
+        "change": 0.02,
+        "liquidity": 3800,
+        "volume24h": 5200
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.67,
+        "change": -0.02,
+        "liquidity": 3600,
+        "volume24h": 4600
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:00:00Z",
+        "yesPrice": 0.31,
+        "noPrice": 0.69
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.33,
+        "noPrice": 0.67
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Economists see stable headline CPI",
+        "source": "WSJ",
+        "timeAgo": "9h ago"
+      }
+    ],
+    "description": "Resolves using the BLS CPI press release table for the month in question."
+  },
+  {
+    "id": "spot-crypto-etf-approved-before-date",
+    "slug": "spot-crypto-etf-approved-before-date",
+    "question": "Will the SEC approve another spot crypto ETF before Nov 30, 2025?",
+    "category": "Crypto",
+    "liquidity": 6800,
+    "volume24h": 8700,
+    "openInterest": 5100,
+    "resolveDate": "2025-11-30T23:59:59Z",
+    "tags": ["ETF", "SEC", "approval"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.24,
+        "change": 0.01,
+        "liquidity": 3400,
+        "volume24h": 4700
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.76,
+        "change": -0.01,
+        "liquidity": 3400,
+        "volume24h": 4000
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:00:00Z",
+        "yesPrice": 0.23,
+        "noPrice": 0.77
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.24,
+        "noPrice": 0.76
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "ETF pipeline: next catalysts",
+        "source": "ETF Trends",
+        "timeAgo": "8h ago"
+      }
+    ],
+    "description": "Yes if an SEC order notice confirms approval of any new spot crypto ETF by the deadline."
+  },
+  {
+    "id": "premier-league-liverpool-vs-man-united-oct19",
+    "slug": "premier-league-liverpool-vs-man-united-oct19",
+    "question": "Premier League Oct 19: Will Liverpool beat Manchester United at Anfield?",
+    "category": "Sports",
+    "liquidity": 5400,
+    "volume24h": 7600,
+    "openInterest": 4100,
+    "resolveDate": "2025-10-19T07:30:00Z",
+    "tags": ["Premier League", "Liverpool", "Manchester United"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.62,
+        "change": -0.02,
+        "liquidity": 2800,
+        "volume24h": 4100
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.38,
+        "change": 0.02,
+        "liquidity": 2600,
+        "volume24h": 3500
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T19:00:00Z",
+        "yesPrice": 0.64,
+        "noPrice": 0.36
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.62,
+        "noPrice": 0.38
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Klopp hints at rotated back line for United clash",
+        "source": "Sky Sports",
+        "timeAgo": "3h ago"
+      }
+    ],
+    "description": "Resolves to the full-time result of Liverpool vs Manchester United at Anfield on 19 Oct 2025."
+  },
+  {
+    "id": "nba-warriors-at-lakers-oct21",
+    "slug": "nba-warriors-at-lakers-oct21",
+    "question": "NBA Oct 21: Will the Los Angeles Lakers defeat the Golden State Warriors in Los Angeles?",
+    "category": "Sports",
+    "liquidity": 4800,
+    "volume24h": 6900,
+    "openInterest": 3600,
+    "resolveDate": "2025-10-22T02:00:00Z",
+    "tags": ["NBA", "Lakers", "Warriors", "moneyline"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.57,
+        "change": 0.01,
+        "liquidity": 2500,
+        "volume24h": 3600
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.43,
+        "change": -0.01,
+        "liquidity": 2300,
+        "volume24h": 3300
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T20:00:00Z",
+        "yesPrice": 0.56,
+        "noPrice": 0.44
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.57,
+        "noPrice": 0.43
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Warriors travel to LA for marquee opener",
+        "source": "ESPN",
+        "timeAgo": "1h ago"
+      }
+    ],
+    "description": "Settles on the official NBA box score for Golden State at Los Angeles on 21 Oct 2025."
+  },
+  {
+    "id": "next-f1-gp-safety-car-deployed",
+    "slug": "next-f1-gp-safety-car-deployed",
+    "question": "Next F1 Grand Prix: Will a Safety Car be deployed?",
+    "category": "Sports",
+    "liquidity": 5100,
+    "volume24h": 7400,
+    "openInterest": 3800,
+    "resolveDate": "2025-10-26T18:00:00Z",
+    "tags": ["F1", "Safety Car", "race"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.65,
+        "change": 0,
+        "liquidity": 2700,
+        "volume24h": 3900
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.35,
+        "change": 0,
+        "liquidity": 2400,
+        "volume24h": 3500
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:00:00Z",
+        "yesPrice": 0.65,
+        "noPrice": 0.35
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "High chance of incidents at this circuit",
+        "source": "Autosport",
+        "timeAgo": "10h ago"
+      }
+    ],
+    "description": "Yes if any official FIA classification shows at least one SC period."
+  },
+  {
+    "id": "ufc-next-ppv-main-event-goes-to-decision",
+    "slug": "ufc-next-ppv-main-event-goes-to-decision",
+    "question": "UFC: Will the next PPV main event go to decision?",
+    "category": "Sports",
+    "liquidity": 4200,
+    "volume24h": 5900,
+    "openInterest": 3000,
+    "resolveDate": "2025-10-26T05:30:00Z",
+    "tags": ["UFC", "MMA", "result"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.39,
+        "change": -0.02,
+        "liquidity": 2100,
+        "volume24h": 3100
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.61,
+        "change": 0.02,
+        "liquidity": 2100,
+        "volume24h": 2800
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T19:00:00Z",
+        "yesPrice": 0.41,
+        "noPrice": 0.59
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.39,
+        "noPrice": 0.61
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Style matchup favors a finish",
+        "source": "MMA Fighting",
+        "timeAgo": "6h ago"
+      }
+    ],
+    "description": "Resolves to the official bout result announced by the commission."
+  },
+  {
+    "id": "apple-next-event-announced-before-date",
+    "slug": "apple-next-event-announced-before-date",
+    "question": "Will Apple announce its next event before Nov 15, 2025?",
+    "category": "Tech",
+    "liquidity": 3700,
+    "volume24h": 5100,
+    "openInterest": 2700,
+    "resolveDate": "2025-11-15T23:59:59Z",
+    "tags": ["Apple", "event", "newsroom"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.36,
+        "change": 0.01,
+        "liquidity": 1900,
+        "volume24h": 2800
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.64,
+        "change": -0.01,
+        "liquidity": 1800,
+        "volume24h": 2300
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:30:00Z",
+        "yesPrice": 0.35,
+        "noPrice": 0.65
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.36,
+        "noPrice": 0.64
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Invite watch window opens",
+        "source": "MacRumors",
+        "timeAgo": "11h ago"
+      }
+    ],
+    "description": "Yes if Apple issues press invites or a Newsroom post by the deadline."
+  },
+  {
+    "id": "openai-or-anthropic-new-flagship-before-date",
+    "slug": "openai-or-anthropic-new-flagship-before-date",
+    "question": "Will OpenAI or Anthropic announce a new flagship model before Nov 30, 2025?",
+    "category": "Tech",
+    "liquidity": 3500,
+    "volume24h": 4700,
+    "openInterest": 2500,
+    "resolveDate": "2025-11-30T23:59:59Z",
+    "tags": ["AI", "model", "announcement"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.31,
+        "change": 0,
+        "liquidity": 1800,
+        "volume24h": 2500
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.69,
+        "change": 0,
+        "liquidity": 1700,
+        "volume24h": 2200
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T19:00:00Z",
+        "yesPrice": 0.31,
+        "noPrice": 0.69
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Model roadmap rumors swirl",
+        "source": "The Information",
+        "timeAgo": "12h ago"
+      }
+    ],
+    "description": "Yes if either org publishes an official blog post unveiling a new flagship model."
+  },
+  {
+    "id": "polymarket-oi-makes-new-annual-high-before-date",
+    "slug": "polymarket-oi-makes-new-annual-high-before-date",
+    "question": "Will Polymarket's open interest set a new YTD high before Oct 31, 2025?",
+    "category": "Meta",
+    "liquidity": 3000,
+    "volume24h": 4200,
+    "openInterest": 2300,
+    "resolveDate": "2025-10-31T23:59:59Z",
+    "tags": ["Polymarket", "OI", "records"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.47,
+        "change": 0.02,
+        "liquidity": 1600,
+        "volume24h": 2300
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.53,
+        "change": -0.02,
+        "liquidity": 1400,
+        "volume24h": 1900
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T20:00:00Z",
+        "yesPrice": 0.45,
+        "noPrice": 0.55
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.47,
+        "noPrice": 0.53
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "OI building across election and macro sets",
+        "source": "Polymarket Blog",
+        "timeAgo": "4h ago"
+      }
+    ],
+    "description": "Yes if Polymarket reports a higher open interest than any prior YTD print."
+  },
+  {
+    "id": "s-and-p-500-closes-month-green",
+    "slug": "s-and-p-500-closes-month-green",
+    "question": "Will the S&P 500 close the month higher than the previous month?",
+    "category": "Markets",
+    "liquidity": 4100,
+    "volume24h": 6100,
+    "openInterest": 2900,
+    "resolveDate": "2025-10-31T21:00:00Z",
+    "tags": ["S&P500", "equities", "monthly"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.53,
+        "change": 0.01,
+        "liquidity": 2100,
+        "volume24h": 3300
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.47,
+        "change": -0.01,
+        "liquidity": 2000,
+        "volume24h": 2800
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:00:00Z",
+        "yesPrice": 0.52,
+        "noPrice": 0.48
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.53,
+        "noPrice": 0.47
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Earnings season lifts index",
+        "source": "Financial Times",
+        "timeAgo": "5h ago"
+      }
+    ],
+    "description": "Compare official month-end closing level versus prior month-end."
+  },
+  {
+    "id": "meta-earnings-gap-up-5",
+    "slug": "meta-earnings-gap-up-5",
+    "question": "On the next META earnings day, will the stock open >= +5% versus prior close?",
+    "category": "Equities",
+    "liquidity": 2800,
+    "volume24h": 3900,
+    "openInterest": 1900,
+    "resolveDate": "2025-10-30T13:30:00Z",
+    "tags": ["META", "earnings", "gap"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.29,
+        "change": -0.01,
+        "liquidity": 1400,
+        "volume24h": 2100
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.71,
+        "change": 0.01,
+        "liquidity": 1400,
+        "volume24h": 1800
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T19:30:00Z",
+        "yesPrice": 0.3,
+        "noPrice": 0.7
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.29,
+        "noPrice": 0.71
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Options imply moderate move",
+        "source": "MarketWatch",
+        "timeAgo": "7h ago"
+      }
+    ],
+    "description": "Resolves using official opening print on the primary exchange on earnings date."
+  },
+  {
+    "id": "betnb-token-launch-by-deadline",
+    "slug": "betnb-token-launch-by-deadline",
+    "question": "Will betnb's token go live on Four.Meme by Oct 25, 2025?",
+    "category": "Meta",
+    "liquidity": 3300,
+    "volume24h": 4500,
+    "openInterest": 2100,
+    "resolveDate": "2025-10-25T23:59:59Z",
+    "tags": ["Four.Meme", "launch", "listing"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.58,
+        "change": 0.03,
+        "liquidity": 1700,
+        "volume24h": 2500
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.42,
+        "change": -0.03,
+        "liquidity": 1600,
+        "volume24h": 2000
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T19:00:00Z",
+        "yesPrice": 0.55,
+        "noPrice": 0.45
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.58,
+        "noPrice": 0.42
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Team hints at imminent deploy",
+        "source": "betnb Twitter",
+        "timeAgo": "2h ago"
+      }
+    ],
+    "description": "Yes when the official link and contract address are posted and the sale page is live."
+  },
+  {
+    "id": "pancakeswap-listing-within-15m-of-curve-fill",
+    "slug": "pancakeswap-listing-within-15m-of-curve-fill",
+    "question": "After the betnb curve fills, will PancakeSwap listing occur within 15 minutes?",
+    "category": "Meta",
+    "liquidity": 2600,
+    "volume24h": 3600,
+    "openInterest": 1700,
+    "resolveDate": "2025-10-25T23:59:59Z",
+    "tags": ["Four.Meme", "DEX", "listing"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.63,
+        "change": 0,
+        "liquidity": 1400,
+        "volume24h": 2000
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.37,
+        "change": 0,
+        "liquidity": 1200,
+        "volume24h": 1600
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T21:00:00Z",
+        "yesPrice": 0.63,
+        "noPrice": 0.37
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Auto-graduate to PancakeSwap explained",
+        "source": "Four.Meme Docs",
+        "timeAgo": "1d ago"
+      }
+    ],
+    "description": "Yes if the PancakeSwap pair page shows a live market within 15 minutes of the sale curve completing."
+  },
+  {
+    "id": "btc-1h-candle-green-at-next-top-of-hour",
+    "slug": "btc-1h-candle-green-at-next-top-of-hour",
+    "question": "Will the next BTC 1-hour candle close green?",
+    "category": "Crypto",
+    "liquidity": 4900,
+    "volume24h": 7200,
+    "openInterest": 3400,
+    "resolveDate": "2025-10-18T23:00:00Z",
+    "tags": ["intraday", "candles", "short-horizon"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.51,
+        "change": 0.01,
+        "liquidity": 2500,
+        "volume24h": 3700
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.49,
+        "change": -0.01,
+        "liquidity": 2400,
+        "volume24h": 3500
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.5,
+        "noPrice": 0.5
+      },
+      {
+        "timestamp": "2025-10-18T22:30:00Z",
+        "yesPrice": 0.51,
+        "noPrice": 0.49
+      }
+    ],
+    "news": [],
+    "description": "Close > open on the next completed 1-hour candle from a designated BTC index."
+  },
+  {
+    "id": "btc-weekly-close-green",
+    "slug": "btc-weekly-close-green",
+    "question": "Will BTC close this week higher vs last week's close?",
+    "category": "Crypto",
+    "featured": false,
+    "liquidity": 11200,
+    "volume24h": 17750,
+    "openInterest": 8200,
+    "resolveDate": "2025-10-19T23:59:59Z",
+    "tags": ["BTC", "weekly", "price"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.54,
+        "change": 0.02,
+        "liquidity": 5800,
+        "volume24h": 9500
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.46,
+        "change": -0.02,
+        "liquidity": 5400,
+        "volume24h": 8250
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:00:00Z",
+        "yesPrice": 0.5,
+        "noPrice": 0.5
+      },
+      {
+        "timestamp": "2025-10-18T20:00:00Z",
+        "yesPrice": 0.52,
+        "noPrice": 0.48
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.54,
+        "noPrice": 0.46
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "BTC bid strengthens into weekend",
+        "source": "CoinDesk",
+        "timeAgo": "2h ago"
+      }
+    ],
+    "description": "Compares this week's UTC Sunday close to the prior week's close on a standard composite index."
+  },
+  {
+    "id": "eth-weekly-close-green",
+    "slug": "eth-weekly-close-green",
+    "question": "Will ETH close this week higher vs last week's close?",
+    "category": "Crypto",
+    "liquidity": 9200,
+    "volume24h": 14250,
+    "openInterest": 6900,
+    "resolveDate": "2025-10-19T23:59:59Z",
+    "tags": ["ETH", "weekly", "price"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.47,
+        "change": -0.01,
+        "liquidity": 4700,
+        "volume24h": 7600
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.53,
+        "change": 0.01,
+        "liquidity": 4500,
+        "volume24h": 6650
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:30:00Z",
+        "yesPrice": 0.49,
+        "noPrice": 0.51
+      },
+      {
+        "timestamp": "2025-10-18T21:30:00Z",
+        "yesPrice": 0.47,
+        "noPrice": 0.53
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "ETH options show neutral skew",
+        "source": "The Block",
+        "timeAgo": "4h ago"
+      }
+    ],
+    "description": "Compares ETH UTC weekly close vs prior week on a common composite source."
+  },
+  {
+    "id": "bnb-weekly-close-green",
+    "slug": "bnb-weekly-close-green",
+    "question": "Will BNB close this week higher vs last week's close?",
+    "category": "Crypto",
+    "liquidity": 6800,
+    "volume24h": 10300,
+    "openInterest": 5200,
+    "resolveDate": "2025-10-19T23:59:59Z",
+    "tags": ["BNB", "weekly", "price"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.58,
+        "change": 0.02,
+        "liquidity": 3600,
+        "volume24h": 5600
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.42,
+        "change": -0.02,
+        "liquidity": 3200,
+        "volume24h": 4700
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T19:00:00Z",
+        "yesPrice": 0.55,
+        "noPrice": 0.45
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.58,
+        "noPrice": 0.42
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "BNB flows firm as sentiment improves",
+        "source": "Bloomberg Crypto",
+        "timeAgo": "3h ago"
+      }
+    ],
+    "description": "Compares BNB UTC weekly close vs prior week using a standard composite."
+  },
+  {
+    "id": "btc-dominance-ge-58-by-eom",
+    "slug": "btc-dominance-ge-58-by-eom",
+    "question": "Will BTC dominance reach >= 58% by month-end?",
+    "category": "Crypto",
+    "liquidity": 7300,
+    "volume24h": 9900,
+    "openInterest": 5400,
+    "resolveDate": "2025-10-31T23:59:59Z",
+    "tags": ["BTC", "dominance", "marketshare"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.44,
+        "change": 0,
+        "liquidity": 3700,
+        "volume24h": 5200
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.56,
+        "change": 0,
+        "liquidity": 3600,
+        "volume24h": 4700
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:00:00Z",
+        "yesPrice": 0.43,
+        "noPrice": 0.57
+      },
+      {
+        "timestamp": "2025-10-18T21:00:00Z",
+        "yesPrice": 0.44,
+        "noPrice": 0.56
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "BTC share inches up amid risk-off",
+        "source": "Cointelegraph",
+        "timeAgo": "7h ago"
+      }
+    ],
+    "description": "Dominance measured by a widely used aggregator at the deadline."
+  },
+  {
+    "id": "eth-net-inflows-gt-2b-this-month",
+    "slug": "eth-net-inflows-gt-2b-this-month",
+    "question": "Will US spot ETH ETFs see >= $2B net inflows this month?",
+    "category": "Crypto",
+    "liquidity": 6100,
+    "volume24h": 8900,
+    "openInterest": 4700,
+    "resolveDate": "2025-11-01T12:00:00Z",
+    "tags": ["ETF", "ETH", "flows"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.37,
+        "change": 0.01,
+        "liquidity": 3100,
+        "volume24h": 4700
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.63,
+        "change": -0.01,
+        "liquidity": 3000,
+        "volume24h": 4200
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T19:00:00Z",
+        "yesPrice": 0.36,
+        "noPrice": 0.64
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.37,
+        "noPrice": 0.63
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "ETH ETF flow snapshot mixed",
+        "source": "ETF Trends",
+        "timeAgo": "9h ago"
+      }
+    ],
+    "description": "Uses combined US spot ETH ETF provider reports for the month."
+  },
+  {
+    "id": "sol-up-today-utc-close",
+    "slug": "sol-up-today-utc-close",
+    "question": "Will SOL close higher today (UTC close vs prior UTC close)?",
+    "category": "Crypto",
+    "liquidity": 7400,
+    "volume24h": 11200,
+    "openInterest": 5200,
+    "resolveDate": "2025-10-18T23:59:59Z",
+    "tags": ["SOL", "daily", "price"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.51,
+        "change": 0.02,
+        "liquidity": 3800,
+        "volume24h": 5900
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.49,
+        "change": -0.02,
+        "liquidity": 3600,
+        "volume24h": 5300
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T20:00:00Z",
+        "yesPrice": 0.5,
+        "noPrice": 0.5
+      },
+      {
+        "timestamp": "2025-10-18T22:30:00Z",
+        "yesPrice": 0.51,
+        "noPrice": 0.49
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "SOL perps funding steadies",
+        "source": "Deribit Insights",
+        "timeAgo": "2h ago"
+      }
+    ],
+    "description": "Daily UP/DOWN settlement on a standard composite close."
+  },
+  {
+    "id": "fomc-oct-decision-hold",
+    "slug": "fomc-oct-decision-hold",
+    "question": "Will the FOMC hold rates at the October 28-29 meeting?",
+    "category": "Economy",
+    "liquidity": 9900,
+    "volume24h": 13900,
+    "openInterest": 7200,
+    "resolveDate": "2025-10-29T18:30:00Z",
+    "tags": ["FOMC", "rates"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.66,
+        "change": 0.01,
+        "liquidity": 5000,
+        "volume24h": 7700
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.34,
+        "change": -0.01,
+        "liquidity": 4900,
+        "volume24h": 6200
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:15:00Z",
+        "yesPrice": 0.65,
+        "noPrice": 0.35
+      },
+      {
+        "timestamp": "2025-10-18T22:15:00Z",
+        "yesPrice": 0.66,
+        "noPrice": 0.34
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "FOMC October dates confirmed",
+        "source": "Federal Reserve",
+        "timeAgo": "1d ago"
+      }
+    ],
+    "description": "Resolves to the action stated in the FOMC statement."
+  },
+  {
+    "id": "us-payrolls-ge-200k-next-release",
+    "slug": "us-payrolls-ge-200k-next-release",
+    "question": "Will US nonfarm payrolls be >= 200k at the next release?",
+    "category": "Economy",
+    "liquidity": 6600,
+    "volume24h": 9300,
+    "openInterest": 4300,
+    "resolveDate": "2025-11-07T13:30:00Z",
+    "tags": ["NFP", "labor"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.45,
+        "change": 0,
+        "liquidity": 3300,
+        "volume24h": 5000
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.55,
+        "change": 0,
+        "liquidity": 3300,
+        "volume24h": 4300
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T19:30:00Z",
+        "yesPrice": 0.45,
+        "noPrice": 0.55
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Economists split on payrolls pace",
+        "source": "Reuters",
+        "timeAgo": "6h ago"
+      }
+    ],
+    "description": "Uses BLS Employment Situation headline change in nonfarm payrolls."
+  },
+  {
+    "id": "spx-closes-week-green",
+    "slug": "spx-closes-week-green",
+    "question": "Will the S&P 500 close this week higher vs last week?",
+    "category": "Markets",
+    "liquidity": 5200,
+    "volume24h": 7800,
+    "openInterest": 3200,
+    "resolveDate": "2025-10-17T21:00:00Z",
+    "tags": ["S&P500", "weekly", "equities"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.52,
+        "change": 0.02,
+        "liquidity": 2700,
+        "volume24h": 4300
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.48,
+        "change": -0.02,
+        "liquidity": 2500,
+        "volume24h": 3500
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-16T20:00:00Z",
+        "yesPrice": 0.5,
+        "noPrice": 0.5
+      },
+      {
+        "timestamp": "2025-10-17T20:30:00Z",
+        "yesPrice": 0.52,
+        "noPrice": 0.48
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Earnings drive late-week bid",
+        "source": "WSJ",
+        "timeAgo": "5h ago"
+      }
+    ],
+    "description": "Compares official weekly closes."
+  },
+  {
+    "id": "meta-closes-month-ge-250",
+    "slug": "meta-closes-month-ge-250",
+    "question": "Will META close any day this month at or above $250?",
+    "category": "Equities",
+    "liquidity": 4100,
+    "volume24h": 5900,
+    "openInterest": 2600,
+    "resolveDate": "2025-10-31T21:00:00Z",
+    "tags": ["META", "levels"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.42,
+        "change": 0,
+        "liquidity": 2100,
+        "volume24h": 3100
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.58,
+        "change": 0,
+        "liquidity": 2000,
+        "volume24h": 2800
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T20:00:00Z",
+        "yesPrice": 0.41,
+        "noPrice": 0.59
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.42,
+        "noPrice": 0.58
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Big-cap tech grinds higher",
+        "source": "Financial Times",
+        "timeAgo": "8h ago"
+      }
+    ],
+    "description": "Resolves on official primary-exchange daily close."
+  },
+  {
+    "id": "premier-league-spurs-vs-aston-villa-oct19",
+    "slug": "premier-league-spurs-vs-aston-villa-oct19",
+    "question": "Premier League Oct 19: Will Tottenham Hotspur defeat Aston Villa in London?",
+    "category": "Sports",
+    "liquidity": 5600,
+    "volume24h": 8200,
+    "openInterest": 3800,
+    "resolveDate": "2025-10-19T05:00:00Z",
+    "tags": ["Premier League", "Tottenham", "Aston Villa"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.57,
+        "change": -0.01,
+        "liquidity": 2900,
+        "volume24h": 4500
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.43,
+        "change": 0.01,
+        "liquidity": 2700,
+        "volume24h": 3700
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T19:15:00Z",
+        "yesPrice": 0.58,
+        "noPrice": 0.42
+      },
+      {
+        "timestamp": "2025-10-18T22:15:00Z",
+        "yesPrice": 0.57,
+        "noPrice": 0.43
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Spurs eye fast start in early kickoff versus Villa",
+        "source": "BBC Sport",
+        "timeAgo": "2h ago"
+      }
+    ],
+    "description": "Resolves to the full-time result of Tottenham Hotspur vs Aston Villa at Tottenham Hotspur Stadium on 19 Oct 2025."
+  },
+  {
+    "id": "premier-league-btts-gt-eq-5-of-10",
+    "slug": "premier-league-btts-gt-eq-5-of-10",
+    "question": "Next PL matchday: BTTS happens in >= 5 of 10 matches?",
+    "category": "Sports",
+    "liquidity": 4300,
+    "volume24h": 6600,
+    "openInterest": 3100,
+    "resolveDate": "2025-10-20T22:30:00Z",
+    "tags": ["Premier League", "props"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.51,
+        "change": 0.01,
+        "liquidity": 2200,
+        "volume24h": 3600
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.49,
+        "change": -0.01,
+        "liquidity": 2100,
+        "volume24h": 3000
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T20:30:00Z",
+        "yesPrice": 0.5,
+        "noPrice": 0.5
+      },
+      {
+        "timestamp": "2025-10-18T22:30:00Z",
+        "yesPrice": 0.51,
+        "noPrice": 0.49
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Expected goals point to open slate",
+        "source": "Opta Analyst",
+        "timeAgo": "5h ago"
+      }
+    ],
+    "description": "Counts BTTS outcomes across the ten scheduled league fixtures."
+  },
+  {
+    "id": "liverpool-v-man-united-btts",
+    "slug": "liverpool-v-man-united-btts",
+    "question": "Liverpool vs Man United: Will both teams score?",
+    "category": "Sports",
+    "liquidity": 6000,
+    "volume24h": 9100,
+    "openInterest": 3500,
+    "resolveDate": "2025-10-19T18:30:00Z",
+    "tags": ["Premier League", "BTTS"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.6,
+        "change": 0.01,
+        "liquidity": 3100,
+        "volume24h": 5200
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.4,
+        "change": -0.01,
+        "liquidity": 2900,
+        "volume24h": 3900
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T19:45:00Z",
+        "yesPrice": 0.59,
+        "noPrice": 0.41
+      },
+      {
+        "timestamp": "2025-10-18T21:45:00Z",
+        "yesPrice": 0.6,
+        "noPrice": 0.4
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Form and H2H trends",
+        "source": "Sky Sports",
+        "timeAgo": "3h ago"
+      }
+    ],
+    "description": "Resolves to official FT result. Any 0-0 or one-sided score = No."
+  },
+  {
+    "id": "fulham-v-arsenal-any-goal",
+    "slug": "fulham-v-arsenal-any-goal",
+    "question": "Fulham vs Arsenal: Will a goal be scored?",
+    "category": "Sports",
+    "liquidity": 4500,
+    "volume24h": 6800,
+    "openInterest": 2900,
+    "resolveDate": "2025-10-18T18:30:00Z",
+    "tags": ["Premier League", "totals"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.92,
+        "change": 0,
+        "liquidity": 2300,
+        "volume24h": 3800
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.08,
+        "change": 0,
+        "liquidity": 2200,
+        "volume24h": 3000
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T17:30:00Z",
+        "yesPrice": 0.91,
+        "noPrice": 0.09
+      },
+      {
+        "timestamp": "2025-10-18T18:00:00Z",
+        "yesPrice": 0.92,
+        "noPrice": 0.08
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Match preview and odds boosts",
+        "source": "talkSPORT",
+        "timeAgo": "6h ago"
+      }
+    ],
+    "description": "Any non-zero score at FT = Yes."
+  },
+  {
+    "id": "next-f1-gp-virtual-or-full-safety-car",
+    "slug": "next-f1-gp-virtual-or-full-safety-car",
+    "question": "Next F1 GP: Will a VSC or full Safety Car appear?",
+    "category": "Sports",
+    "liquidity": 5200,
+    "volume24h": 7700,
+    "openInterest": 3300,
+    "resolveDate": "2025-10-26T18:00:00Z",
+    "tags": ["F1", "race-control"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.68,
+        "change": 0,
+        "liquidity": 2700,
+        "volume24h": 4300
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.32,
+        "change": 0,
+        "liquidity": 2500,
+        "volume24h": 3400
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:00:00Z",
+        "yesPrice": 0.68,
+        "noPrice": 0.32
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Track notes hint at high SC risk",
+        "source": "Autosport",
+        "timeAgo": "10h ago"
+      }
+    ],
+    "description": "Yes if FIA classification lists any VSC or SC period."
+  },
+  {
+    "id": "ufc-co-main-last-round-finish",
+    "slug": "ufc-co-main-last-round-finish",
+    "question": "Next UFC PPV co-main: Will the fight end in the last round?",
+    "category": "Sports",
+    "liquidity": 3000,
+    "volume24h": 4600,
+    "openInterest": 2100,
+    "resolveDate": "2025-10-26T04:30:00Z",
+    "tags": ["UFC", "prop"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.22,
+        "change": -0.01,
+        "liquidity": 1500,
+        "volume24h": 2500
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.78,
+        "change": 0.01,
+        "liquidity": 1500,
+        "volume24h": 2100
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T21:00:00Z",
+        "yesPrice": 0.23,
+        "noPrice": 0.77
+      },
+      {
+        "timestamp": "2025-10-18T22:30:00Z",
+        "yesPrice": 0.22,
+        "noPrice": 0.78
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Co-main styles and cardio",
+        "source": "MMA Fighting",
+        "timeAgo": "7h ago"
+      }
+    ],
+    "description": "Yes if official result time falls in the final scheduled round."
+  },
+  {
+    "id": "apple-announces-event-before-nov15",
+    "slug": "apple-announces-event-before-nov15",
+    "question": "Will Apple announce its next event before Nov 15, 2025?",
+    "category": "Tech",
+    "liquidity": 3600,
+    "volume24h": 5200,
+    "openInterest": 2400,
+    "resolveDate": "2025-11-15T23:59:59Z",
+    "tags": ["Apple", "event"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.35,
+        "change": 0.01,
+        "liquidity": 1850,
+        "volume24h": 2900
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.65,
+        "change": -0.01,
+        "liquidity": 1750,
+        "volume24h": 2300
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T20:30:00Z",
+        "yesPrice": 0.34,
+        "noPrice": 0.66
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.35,
+        "noPrice": 0.65
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Rumor cycle heats up",
+        "source": "MacRumors",
+        "timeAgo": "1d ago"
+      }
+    ],
+    "description": "Yes on official Apple Newsroom post or press invites."
+  },
+  {
+    "id": "openai-or-anthropic-flagship-by-nov30",
+    "slug": "openai-or-anthropic-flagship-by-nov30",
+    "question": "Will OpenAI or Anthropic announce a new flagship model by Nov 30, 2025?",
+    "category": "Tech",
+    "liquidity": 3400,
+    "volume24h": 4900,
+    "openInterest": 2300,
+    "resolveDate": "2025-11-30T23:59:59Z",
+    "tags": ["AI", "models"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.3,
+        "change": 0,
+        "liquidity": 1750,
+        "volume24h": 2700
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.7,
+        "change": 0,
+        "liquidity": 1650,
+        "volume24h": 2200
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T21:00:00Z",
+        "yesPrice": 0.3,
+        "noPrice": 0.7
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Platform roadmaps watched",
+        "source": "The Information",
+        "timeAgo": "12h ago"
+      }
+    ],
+    "description": "Yes on official org blog or newsroom announcement."
+  },
+  {
+    "id": "global-temp-oct-anomaly-ge-1-19",
+    "slug": "global-temp-oct-anomaly-ge-1-19",
+    "question": "Will the October global temperature anomaly be >= +1.19  degreesC?",
+    "category": "Science",
+    "liquidity": 3100,
+    "volume24h": 4500,
+    "openInterest": 2100,
+    "resolveDate": "2025-12-10T12:00:00Z",
+    "tags": ["climate", "temperature"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.48,
+        "change": 0.01,
+        "liquidity": 1600,
+        "volume24h": 2500
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.52,
+        "change": -0.01,
+        "liquidity": 1500,
+        "volume24h": 2000
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T20:00:00Z",
+        "yesPrice": 0.47,
+        "noPrice": 0.53
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.48,
+        "noPrice": 0.52
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Early reanalysis signals elevated anomaly",
+        "source": "Copernicus Blog",
+        "timeAgo": "14h ago"
+      }
+    ],
+    "description": "Uses a named global dataset's official monthly anomaly release."
+  },
+  {
+    "id": "bnb-chain-major-event-in-oct",
+    "slug": "bnb-chain-major-event-in-oct",
+    "question": "Will a major BNB Chain community event occur in October?",
+    "category": "Crypto",
+    "liquidity": 2800,
+    "volume24h": 4100,
+    "openInterest": 1900,
+    "resolveDate": "2025-10-31T23:59:59Z",
+    "tags": ["BNB", "events"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.41,
+        "change": 0,
+        "liquidity": 1450,
+        "volume24h": 2300
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.59,
+        "change": 0,
+        "liquidity": 1350,
+        "volume24h": 1800
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T19:00:00Z",
+        "yesPrice": 0.41,
+        "noPrice": 0.59
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Conference and side-event chatter",
+        "source": "Binance Square",
+        "timeAgo": "1d ago"
+      }
+    ],
+    "description": "Yes if an official BNB Chain channel confirms an October flagship or partner event."
+  },
+  {
+    "id": "betnb-daily-active-wallets-ge-1000",
+    "slug": "betnb-daily-active-wallets-ge-1000",
+    "question": "Will betnb record >= 1,000 active wallets today?",
+    "category": "Meta",
+    "liquidity": 2600,
+    "volume24h": 3900,
+    "openInterest": 1800,
+    "resolveDate": "2025-10-19T23:59:59Z",
+    "tags": ["betnb", "growth"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.55,
+        "change": 0.02,
+        "liquidity": 1400,
+        "volume24h": 2200
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.45,
+        "change": -0.02,
+        "liquidity": 1200,
+        "volume24h": 1700
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:30:00Z",
+        "yesPrice": 0.53,
+        "noPrice": 0.47
+      },
+      {
+        "timestamp": "2025-10-18T21:30:00Z",
+        "yesPrice": 0.55,
+        "noPrice": 0.45
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "New referral push live",
+        "source": "betnb Blog",
+        "timeAgo": "3h ago"
+      }
+    ],
+    "description": "Counts unique on-chain interactors with the main contracts for the UTC day."
+  },
+  {
+    "id": "betnb-fees-paid-ge-50-bnb-this-week",
+    "slug": "betnb-fees-paid-ge-50-bnb-this-week",
+    "question": "Will betnb pay >= 50 BNB in referral fees this week?",
+    "category": "Meta",
+    "liquidity": 2300,
+    "volume24h": 3500,
+    "openInterest": 1600,
+    "resolveDate": "2025-10-25T23:59:59Z",
+    "tags": ["betnb", "fees"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.48,
+        "change": 0,
+        "liquidity": 1200,
+        "volume24h": 1900
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.52,
+        "change": 0,
+        "liquidity": 1100,
+        "volume24h": 1600
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T20:00:00Z",
+        "yesPrice": 0.48,
+        "noPrice": 0.52
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Influencer codes rolling out",
+        "source": "betnb Twitter",
+        "timeAgo": "5h ago"
+      }
+    ],
+    "description": "Resolves from on-chain or internal ledger snapshot for the week."
+  },
+  {
+    "id": "btc-30m-move-ge-2pct-today",
+    "slug": "btc-30m-move-ge-2pct-today",
+    "question": "Will BTC move >= +/-2% in any 30-minute window today?",
+    "category": "Crypto",
+    "liquidity": 5200,
+    "volume24h": 7600,
+    "openInterest": 3000,
+    "resolveDate": "2025-10-18T23:59:59Z",
+    "tags": ["volatility", "intraday"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.39,
+        "change": 0.01,
+        "liquidity": 2700,
+        "volume24h": 4100
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.61,
+        "change": -0.01,
+        "liquidity": 2500,
+        "volume24h": 3500
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:30:00Z",
+        "yesPrice": 0.38,
+        "noPrice": 0.62
+      },
+      {
+        "timestamp": "2025-10-18T21:30:00Z",
+        "yesPrice": 0.39,
+        "noPrice": 0.61
+      }
+    ],
+    "news": [],
+    "description": "Checks the largest absolute return across any 30-min bar on a standard BTC index."
+  },
+  {
+    "id": "eth-gas-7d-avg-ge-40gwei",
+    "slug": "eth-gas-7d-avg-ge-40gwei",
+    "question": "Will the 7-day average ETH gas price be >= 40 gwei by month-end?",
+    "category": "Crypto",
+    "liquidity": 3000,
+    "volume24h": 4400,
+    "openInterest": 1900,
+    "resolveDate": "2025-10-31T23:59:59Z",
+    "tags": ["gas", "ethereum"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.33,
+        "change": 0,
+        "liquidity": 1550,
+        "volume24h": 2400
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.67,
+        "change": 0,
+        "liquidity": 1450,
+        "volume24h": 2000
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T20:00:00Z",
+        "yesPrice": 0.33,
+        "noPrice": 0.67
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "L2 migration tempers mainnet gas",
+        "source": "Bankless",
+        "timeAgo": "1d ago"
+      }
+    ],
+    "description": "Uses a recognized gas tracker's 7-day simple average at month-end."
+  },
+  {
+    "id": "spot-sol-etf-approved-by-eoy",
+    "slug": "spot-sol-etf-approved-by-eoy",
+    "question": "Will a US spot SOL ETF be approved by year-end?",
+    "category": "Crypto",
+    "liquidity": 4200,
+    "volume24h": 5800,
+    "openInterest": 2500,
+    "resolveDate": "2025-12-31T23:59:59Z",
+    "tags": ["SOL", "ETF"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.21,
+        "change": 0.01,
+        "liquidity": 2150,
+        "volume24h": 3100
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.79,
+        "change": -0.01,
+        "liquidity": 2050,
+        "volume24h": 2700
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T21:00:00Z",
+        "yesPrice": 0.2,
+        "noPrice": 0.8
+      },
+      {
+        "timestamp": "2025-10-18T22:30:00Z",
+        "yesPrice": 0.21,
+        "noPrice": 0.79
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Speculation on next spot approvals",
+        "source": "Bloomberg ETF Desk",
+        "timeAgo": "9h ago"
+      }
+    ],
+    "description": "Yes on SEC order notice approving any spot SOL ETF."
+  },
+  {
+    "id": "xrp-ge-2-usd-before-eom",
+    "slug": "xrp-ge-2-usd-before-eom",
+    "question": "Will XRP trade at or above $2 before month-end?",
+    "category": "Crypto",
+    "liquidity": 3900,
+    "volume24h": 5500,
+    "openInterest": 2300,
+    "resolveDate": "2025-10-31T23:59:59Z",
+    "tags": ["XRP", "levels"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.18,
+        "change": 0,
+        "liquidity": 2000,
+        "volume24h": 3000
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.82,
+        "change": 0,
+        "liquidity": 1900,
+        "volume24h": 2500
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T20:15:00Z",
+        "yesPrice": 0.18,
+        "noPrice": 0.82
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Ripple headlines ebb and flow",
+        "source": "Decrypt",
+        "timeAgo": "11h ago"
+      }
+    ],
+    "description": "Yes if any major composite shows >= $2 intraday before deadline."
+  },
+  {
+    "id": "polymarket-oi-new-ytd-high-by-oct31",
+    "slug": "polymarket-oi-new-ytd-high-by-oct31",
+    "question": "Will Polymarket OI set a new YTD high by Oct 31?",
+    "category": "Meta",
+    "liquidity": 2900,
+    "volume24h": 4100,
+    "openInterest": 2000,
+    "resolveDate": "2025-10-31T23:59:59Z",
+    "tags": ["Polymarket", "open-interest"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.49,
+        "change": 0.02,
+        "liquidity": 1500,
+        "volume24h": 2300
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.51,
+        "change": -0.02,
+        "liquidity": 1400,
+        "volume24h": 1800
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T20:45:00Z",
+        "yesPrice": 0.47,
+        "noPrice": 0.53
+      },
+      {
+        "timestamp": "2025-10-18T22:15:00Z",
+        "yesPrice": 0.49,
+        "noPrice": 0.51
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "OI climbs across politics and macro",
+        "source": "Polymarket Blog",
+        "timeAgo": "4h ago"
+      }
+    ],
+    "description": "Compares official OI series to prior YTD peak."
+  },
+  {
+    "id": "fomc-oct-action",
+    "slug": "fomc-oct-action",
+    "question": "FOMC Oct 28-29: Cut, Hold, or Hike?",
+    "category": "Economy",
+    "liquidity": 8800,
+    "volume24h": 13100,
+    "openInterest": 6700,
+    "resolveDate": "2025-10-29T18:30:00Z",
+    "tags": ["FOMC", "rates"],
+    "options": [
+      {
+        "id": "cut",
+        "label": "Cut",
+        "price": 0.17,
+        "change": 0,
+        "liquidity": 2800,
+        "volume24h": 3900
+      },
+      {
+        "id": "hold",
+        "label": "Hold",
+        "price": 0.69,
+        "change": 0.01,
+        "liquidity": 4200,
+        "volume24h": 6200
+      },
+      {
+        "id": "hike",
+        "label": "Hike",
+        "price": 0.14,
+        "change": -0.01,
+        "liquidity": 1800,
+        "volume24h": 3300
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:00:00Z",
+        "yesPrice": 0.69,
+        "noPrice": 0.31
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.69,
+        "noPrice": 0.31
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Markets price holding pattern into Oct FOMC",
+        "source": "Reuters",
+        "timeAgo": "4h ago"
+      }
+    ],
+    "description": "Resolves to the policy action stated in the Oct FOMC statement."
+  },
+  {
+    "id": "cpi-sep-2025-ge-0-4-mom",
+    "slug": "cpi-sep-2025-ge-0-4-mom",
+    "question": "US CPI (Sep 2025) >= 0.4% m/m?",
+    "category": "Economy",
+    "liquidity": 7200,
+    "volume24h": 9800,
+    "openInterest": 5100,
+    "resolveDate": "2025-10-24T12:30:00Z",
+    "tags": ["CPI", "inflation"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.31,
+        "change": 0.02,
+        "liquidity": 3600,
+        "volume24h": 5200
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.69,
+        "change": -0.02,
+        "liquidity": 3600,
+        "volume24h": 4600
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T19:00:00Z",
+        "yesPrice": 0.3,
+        "noPrice": 0.7
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.31,
+        "noPrice": 0.69
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Preview: Energy keeps headline elevated",
+        "source": "WSJ",
+        "timeAgo": "6h ago"
+      }
+    ],
+    "description": "Uses BLS headline m/m in Sep 2025 release."
+  },
+  {
+    "id": "cpi-oct-2025-ge-0-3-mom",
+    "slug": "cpi-oct-2025-ge-0-3-mom",
+    "question": "US CPI (Oct 2025) >= 0.3% m/m?",
+    "category": "Economy",
+    "liquidity": 6400,
+    "volume24h": 9100,
+    "openInterest": 4600,
+    "resolveDate": "2025-11-13T13:30:00Z",
+    "tags": ["CPI", "inflation"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.47,
+        "change": 0.01,
+        "liquidity": 3200,
+        "volume24h": 4900
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.53,
+        "change": -0.01,
+        "liquidity": 3200,
+        "volume24h": 4200
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T20:00:00Z",
+        "yesPrice": 0.46,
+        "noPrice": 0.54
+      },
+      {
+        "timestamp": "2025-10-18T22:30:00Z",
+        "yesPrice": 0.47,
+        "noPrice": 0.53
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Shelter and services in focus for Oct CPI",
+        "source": "Bloomberg",
+        "timeAgo": "8h ago"
+      }
+    ],
+    "description": "Uses BLS headline m/m in Oct 2025 release."
+  },
+  {
+    "id": "f1-us-gp-safety-car",
+    "slug": "f1-us-gp-safety-car",
+    "question": "United States GP (Oct 17-19): Will a Safety Car be deployed?",
+    "category": "Sports",
+    "liquidity": 5200,
+    "volume24h": 7600,
+    "openInterest": 3200,
+    "resolveDate": "2025-10-19T22:00:00Z",
+    "tags": ["F1", "Austin"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.66,
+        "change": 0,
+        "liquidity": 2700,
+        "volume24h": 4300
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.34,
+        "change": 0,
+        "liquidity": 2500,
+        "volume24h": 3300
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T18:30:00Z",
+        "yesPrice": 0.66,
+        "noPrice": 0.34
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Sprint weekend at Austin shakes up strategy",
+        "source": "Reuters",
+        "timeAgo": "1d ago"
+      }
+    ],
+    "description": "Yes if FIA classification lists any SC/VSC period during the GP."
+  },
+  {
+    "id": "f1-mexico-gp-safety-car",
+    "slug": "f1-mexico-gp-safety-car",
+    "question": "Mexico City GP (Oct 24-26): Will a Safety Car be deployed?",
+    "category": "Sports",
+    "liquidity": 4700,
+    "volume24h": 6900,
+    "openInterest": 3000,
+    "resolveDate": "2025-10-26T22:00:00Z",
+    "tags": ["F1", "Mexico"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.59,
+        "change": 0,
+        "liquidity": 2400,
+        "volume24h": 3900
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.41,
+        "change": 0,
+        "liquidity": 2300,
+        "volume24h": 3000
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T21:00:00Z",
+        "yesPrice": 0.59,
+        "noPrice": 0.41
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "High-altitude setup could boost SC odds",
+        "source": "Autosport",
+        "timeAgo": "12h ago"
+      }
+    ],
+    "description": "Same rule as US GP; resolves on FIA classification."
+  },
+  {
+    "id": "epl-fulham-arsenal-any-goal",
+    "slug": "epl-fulham-arsenal-any-goal",
+    "question": "Fulham vs Arsenal (Oct 18): Will there be a goal?",
+    "category": "Sports",
+    "liquidity": 4500,
+    "volume24h": 6800,
+    "openInterest": 2900,
+    "resolveDate": "2025-10-18T18:30:00Z",
+    "tags": ["Premier League", "totals"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.92,
+        "change": 0,
+        "liquidity": 2300,
+        "volume24h": 3800
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.08,
+        "change": 0,
+        "liquidity": 2200,
+        "volume24h": 3000
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T17:30:00Z",
+        "yesPrice": 0.91,
+        "noPrice": 0.09
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Fulham v Arsenal preview",
+        "source": "Premier League",
+        "timeAgo": "6h ago"
+      }
+    ],
+    "description": "Any non-zero FT score = Yes, per PL official result."
+  },
+  {
+    "id": "epl-liverpool-manunited-btts",
+    "slug": "epl-liverpool-manunited-btts",
+    "question": "Liverpool vs Man United (Oct 19): Both teams score?",
+    "category": "Sports",
+    "liquidity": 6100,
+    "volume24h": 9200,
+    "openInterest": 3400,
+    "resolveDate": "2025-10-19T17:30:00Z",
+    "tags": ["Premier League", "BTTS"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.58,
+        "change": 0.01,
+        "liquidity": 3200,
+        "volume24h": 5200
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.42,
+        "change": -0.01,
+        "liquidity": 2900,
+        "volume24h": 4000
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T20:30:00Z",
+        "yesPrice": 0.57,
+        "noPrice": 0.43
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Liverpool v Man Utd match preview",
+        "source": "Premier League",
+        "timeAgo": "5h ago"
+      }
+    ],
+    "description": "Yes if both sides score at least once; PL official FT result."
+  },
+  {
+    "id": "epl-spurs-astonvilla-home-win",
+    "slug": "epl-spurs-astonvilla-home-win",
+    "question": "Spurs vs Aston Villa (Oct 19): Will Spurs win?",
+    "category": "Sports",
+    "liquidity": 5600,
+    "volume24h": 8000,
+    "openInterest": 3200,
+    "resolveDate": "2025-10-19T15:00:00Z",
+    "tags": ["Premier League", "moneyline"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.52,
+        "change": -0.01,
+        "liquidity": 2900,
+        "volume24h": 4600
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.48,
+        "change": 0.01,
+        "liquidity": 2700,
+        "volume24h": 3400
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T21:00:00Z",
+        "yesPrice": 0.53,
+        "noPrice": 0.47
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Spurs v Villa team news",
+        "source": "Sky Sports",
+        "timeAgo": "3h ago"
+      }
+    ],
+    "description": "Resolves to PL official FT result."
+  },
+  {
+    "id": "epl-westham-brentford-plays-on-time",
+    "slug": "epl-westham-brentford-plays-on-time",
+    "question": "West Ham vs Brentford (Oct 20): Match kicks off on original date?",
+    "category": "Sports",
+    "liquidity": 3000,
+    "volume24h": 4300,
+    "openInterest": 1800,
+    "resolveDate": "2025-10-20T20:15:00Z",
+    "tags": ["Premier League", "scheduling"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.95,
+        "change": 0,
+        "liquidity": 1600,
+        "volume24h": 2600
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.05,
+        "change": 0,
+        "liquidity": 1400,
+        "volume24h": 1700
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.95,
+        "noPrice": 0.05
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Fixture list confirmations",
+        "source": "Premier League",
+        "timeAgo": "1d ago"
+      }
+    ],
+    "description": "Yes if kickoff occurs on Oct 20 local date; otherwise No."
+  },
+  {
+    "id": "ufc-321-main-event-goes-distance",
+    "slug": "ufc-321-main-event-goes-distance",
+    "question": "UFC 321 (Oct 25 Abu Dhabi): Will the main event go the distance?",
+    "category": "Sports",
+    "liquidity": 4900,
+    "volume24h": 7300,
+    "openInterest": 3000,
+    "resolveDate": "2025-10-25T20:00:00Z",
+    "tags": ["UFC", "PPV"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.41,
+        "change": -0.01,
+        "liquidity": 2400,
+        "volume24h": 3900
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.59,
+        "change": 0.01,
+        "liquidity": 2500,
+        "volume24h": 3400
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T21:30:00Z",
+        "yesPrice": 0.42,
+        "noPrice": 0.58
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "UFC 321 card and venue confirmed",
+        "source": "ESPN",
+        "timeAgo": "10h ago"
+      }
+    ],
+    "description": "Resolves to judges' decision vs stoppage for the PPV main event."
+  },
+  {
+    "id": "btc-up-tomorrow-utc-close",
+    "slug": "btc-up-tomorrow-utc-close",
+    "question": "Will BTC close higher tomorrow (UTC vs today's close)?",
+    "category": "Crypto",
+    "liquidity": 9600,
+    "volume24h": 15100,
+    "openInterest": 7000,
+    "resolveDate": "2025-10-19T23:59:59Z",
+    "tags": ["BTC", "daily"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.52,
+        "change": 0.02,
+        "liquidity": 5000,
+        "volume24h": 8200
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.48,
+        "change": -0.02,
+        "liquidity": 4600,
+        "volume24h": 6900
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T20:00:00Z",
+        "yesPrice": 0.51,
+        "noPrice": 0.49
+      },
+      {
+        "timestamp": "2025-10-18T22:00:00Z",
+        "yesPrice": 0.52,
+        "noPrice": 0.48
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Flows turn positive into weekend",
+        "source": "CoinDesk",
+        "timeAgo": "3h ago"
+      }
+    ],
+    "description": "Binary UP/DOWN on tomorrow's UTC close vs today's."
+  },
+  {
+    "id": "eth-up-tomorrow-utc-close",
+    "slug": "eth-up-tomorrow-utc-close",
+    "question": "Will ETH close higher tomorrow (UTC vs today's close)?",
+    "category": "Crypto",
+    "liquidity": 7800,
+    "volume24h": 12100,
+    "openInterest": 5600,
+    "resolveDate": "2025-10-19T23:59:59Z",
+    "tags": ["ETH", "daily"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.49,
+        "change": 0,
+        "liquidity": 3900,
+        "volume24h": 6700
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.51,
+        "change": 0,
+        "liquidity": 3900,
+        "volume24h": 5400
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T20:30:00Z",
+        "yesPrice": 0.49,
+        "noPrice": 0.51
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "ETH range tight ahead of CPI/FOMC week",
+        "source": "The Block",
+        "timeAgo": "7h ago"
+      }
+    ],
+    "description": "Daily UP/DOWN on tomorrow's UTC close."
+  },
+  {
+    "id": "spx-closes-month-green-oct",
+    "slug": "spx-closes-month-green-oct",
+    "question": "Will the S&P 500 close October higher than September?",
+    "category": "Markets",
+    "liquidity": 4300,
+    "volume24h": 6300,
+    "openInterest": 2700,
+    "resolveDate": "2025-10-31T20:59:59Z",
+    "tags": ["S&P500", "monthly"],
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes",
+        "price": 0.52,
+        "change": 0.01,
+        "liquidity": 2200,
+        "volume24h": 3500
+      },
+      {
+        "id": "no",
+        "label": "No",
+        "price": 0.48,
+        "change": -0.01,
+        "liquidity": 2100,
+        "volume24h": 2800
+      }
+    ],
+    "chart": [
+      {
+        "timestamp": "2025-10-18T21:30:00Z",
+        "yesPrice": 0.51,
+        "noPrice": 0.49
+      }
+    ],
+    "news": [
+      {
+        "id": "n1",
+        "title": "Earnings breadth supports indices",
+        "source": "FT",
+        "timeAgo": "9h ago"
+      }
+    ],
+    "description": "Compares Oct month-end official close vs Sep close."
+  }
+]

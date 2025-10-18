@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## BETNB
 
-## Getting Started
+BETNB is a Polymarket-inspired prediction exchange experience tuned for the BNB Chain ecosystem. The UI showcases:
 
-First, run the development server:
+- Realistic market catalogue with categories (politics, crypto, macro, sports, and more)
+- Rich market detail views featuring pricing charts, liquidity vitals, and contextual news
+- Interactive portfolio dashboard with simulated balances, PnL, and exposure analytics
+- Wallet connection flow that mimics popular providers without touching real funds
+
+The app ships with mock market, position, and balance data stored locally under `src/lib/data` to keep the experience vivid while remaining self-contained.
+
+## Stack
+
+- Next.js App Router (TypeScript)
+- Tailwind CSS v4 (inline theme tokens)
+- shadcn/ui-inspired primitives (buttons, cards, tables, tabs)
+- Recharts for price and PnL visualisations
+- Husky & lint-staged for pre-commit quality gates
+
+## Local Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:3000` to interact with the experience. The header navigation links to the portfolio, insights, and leaderboard screens. Markets under `/markets/[slug]` are statically generated from the mock dataset.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Quality Tooling
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run lint` – Next.js + ESLint checks (0 warnings enforced)
+- `npm run lint:fix` – Autofix lint issues via ESLint
+- `npm run typecheck` – TypeScript project validation
+- `npm run format` / `npm run format:check` – Prettier formatting helpers
 
-## Learn More
+Husky runs `lint-staged` on each commit, applying ESLint + Prettier fixes to staged files.
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure Highlights
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `src/app` – App Router routes and page layouts
+- `src/components` – Reusable UI and market widgets
+- `src/lib/data` – Mock JSON data powering the interface
+- `src/lib/utils.ts` – Helper utilities for formatting and class merging
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Notes
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- The wallet connection dialog is an intentional simulation for demo purposes.
+- Charts and figures are derived from local mock data; wire to live feeds when integrating blockchain or backend services.

@@ -1,0 +1,10 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BETNB logo">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fce58a" />
+      <stop offset="100%" stop-color="#f0b629" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#gold)" />
+  <path d="M64 28l32 36-32 36-32-36 20-22 12 14 12-14 20 22-32 36" fill="#171208" opacity="0.92" />
+</svg>
