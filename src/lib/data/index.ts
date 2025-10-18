@@ -1,11 +1,13 @@
 import rawMarkets from '@/lib/data/markets.json'
-import positions from '@/lib/data/positions.json'
-import balances from '@/lib/data/balances.json'
-import type { Market } from '@/lib/types'
+import rawPositions from '@/lib/data/positions.json'
+import rawBalances from '@/lib/data/balances.json'
+import type { Balance, Market, Position } from '@/lib/types'
 
 const markets = dedupeMarkets(rawMarkets)
 const marketCategories = extractMarketCategories(markets)
 const openMarketCount = countOpenMarkets(markets)
+const positions = rawPositions as Position[]
+const balances = rawBalances as Balance[]
 
 export { markets, marketCategories, openMarketCount, positions, balances }
 
