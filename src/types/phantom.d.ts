@@ -1,10 +1,10 @@
-interface PhantomConnectResponse {
+export interface PhantomConnectResponse {
   publicKey?: {
     toString: () => string
   }
 }
 
-interface PhantomProvider {
+export interface PhantomProvider {
   isPhantom?: boolean
   connect: (options?: { onlyIfTrusted?: boolean }) => Promise<PhantomConnectResponse>
   disconnect: () => Promise<void>

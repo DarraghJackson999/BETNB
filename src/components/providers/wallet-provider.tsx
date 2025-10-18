@@ -8,6 +8,7 @@ import {
   useMemo,
   useState,
 } from 'react'
+import type { PhantomProvider } from '@/types/phantom'
 
 type WalletStatus = 'disconnected' | 'connecting' | 'connected' | 'unavailable'
 
@@ -77,7 +78,8 @@ export function WalletProvider({ children }: { children: React.ReactNode }) {
     const provider = getPhantomProvider()
     if (!provider) return
 
-    function handleConnect(publicKey: { toString: () => string }) {
+    function handleConnect(...args: unknown[]) {
+      const publicKey = args[0] as { toString: () => string } | undefined
       setAddress(publicKey?.toString() ?? null)
       setStatus('connected')
       setError(null)
