@@ -21,16 +21,13 @@ export default function Home() {
         <div className="text-xs uppercase tracking-[0.3em] text-[#fbd24d]">
           BETNB Token
         </div>
-        <h2 className="mt-3 text-3xl font-semibold text-[#f5f1e6]">
-          $BETNB Launch Notice
-        </h2>
+        <h2 className="mt-3 text-3xl font-semibold text-[#f5f1e6]">$BETNB Token</h2>
         <p className="mt-4 text-sm text-[#d9cfba]">
-          The official contract address for $BETNB will appear here after launch. We are
-          planning a stealth deployment to avoid snipers, so watch this space for the
-          verified address from treasury.
+          The official contract address for $BETNB will appear here after launch. Coin
+          address: TBA.
         </p>
         <div className="mt-6 rounded-2xl border border-dashed border-[#fbd24d]/60 bg-[#1a150c] px-6 py-4 text-sm text-[#fbd24d]">
-          Contract Address: <span className="font-mono text-[#f5f1e6]">pending</span>
+          Coin Address: <span className="font-mono text-[#f5f1e6]">TBA</span>
         </div>
       </section>
     </div>
