@@ -26,7 +26,7 @@ export function ConnectWalletButton() {
         <Button
           size="lg"
           className="font-semibold"
-          variant={status === 'connected' ? 'secondary' : 'default'}
+          variant={status === 'connected' ? 'secondary' : 'primary'}
         >
           {statusCopy}
         </Button>
