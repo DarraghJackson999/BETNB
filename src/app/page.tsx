@@ -23,11 +23,14 @@ export default function Home() {
         </div>
         <h2 className="mt-3 text-3xl font-semibold text-[#f5f1e6]">$BETNB Token</h2>
         <p className="mt-4 text-sm text-[#d9cfba]">
-          The official contract address for $BETNB will be published here after launch.
-          Coin address: TBA.
+          The official contract address for $BETNB is live. Copy it directly from this
+          panel to avoid spoofed listings.
         </p>
         <div className="mt-6 rounded-2xl border border-dashed border-[#fbd24d]/60 bg-[#1a150c] px-6 py-4 text-sm text-[#fbd24d]">
-          Coin Address: <span className="font-mono text-[#f5f1e6]">TBA</span>
+          Coin Address:{' '}
+          <span className="font-mono text-[#f5f1e6]">
+            0xc7d40841f1387c93141b884aeee901ed55d74444
+          </span>
         </div>
       </section>
     </div>
