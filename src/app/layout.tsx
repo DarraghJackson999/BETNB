@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   description:
     'UmbraMarkets is a private-market prediction exchange providing institution-grade liquidity routing, anonymous execution, and on-chain settlement transparency.',
   icons: {
-    icon: '/umbra-logo.svg',
-    shortcut: '/umbra-logo.svg',
-    apple: '/umbra-logo.svg',
+    icon: '/umbra-logos/logo-primary.png',
+    shortcut: '/umbra-logos/logo-primary.png',
+    apple: '/umbra-logos/logo-primary.png',
   },
 }
 
