@@ -19,7 +19,7 @@ const navLinks = [
   { label: 'Insights', href: '/insights' },
   { label: 'Leaderboard', href: '/leaderboard' },
   { label: 'Docs', href: '/docs' },
-  { label: 'Twitter', href: 'https://x.com/umbramarkets', external: true },
+  { label: 'Twitter', href: 'https://x.com/umbramarket', external: true },
 ]
 
 export function SiteHeader() {
