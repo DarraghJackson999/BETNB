@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   title: 'UmbraMarkets • Institutional Prediction Desk',
   description:
     'UmbraMarkets is a private-market prediction exchange providing institution-grade liquidity routing, anonymous execution, and on-chain settlement transparency.',
+  icons: {
+    icon: '/umbra-logo.svg',
+    shortcut: '/umbra-logo.svg',
+    apple: '/umbra-logo.svg',
+  },
 }
 
 export default function RootLayout({
