@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wave16a_base" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#251546" />
+      <stop offset="100%" stop-color="#6E4FE0" />
+    </linearGradient>
+    <linearGradient id="wave16a_top" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F5EEFF" />
+      <stop offset="100%" stop-color="#8D67FF" />
+    </linearGradient>
+    <radialGradient id="glow16a" cx="70%" cy="25%" r="70%">
+      <stop offset="0%" stop-color="#8A64FF" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#040111" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="56" fill="#040111" />
+  <rect width="200" height="200" rx="56" fill="url(#glow16a)" />
+  <path d="M34 122C54 108 78 100 102 104C126 108 148 100 166 86V164H34V122Z" fill="url(#wave16a_base)" />
+  <path d="M34 140C54 128 78 122 100 126C128 130 148 120 166 108V164H34V140Z" fill="url(#wave16a_top)" opacity="0.92" />
+  <circle cx="136" cy="70" r="14" fill="#F4EDFF" />
+  <path d="M136 56L139.8 65.2L149.8 65.4L141.8 71.2L144.8 80.6L136 74.2L127.2 80.6L130.2 71.2L122.2 65.4L132.2 65.2L136 56Z" fill="#C7B2FF" opacity="0.6" />
+</svg>

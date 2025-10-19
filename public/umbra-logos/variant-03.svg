@@ -1,0 +1,17 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="triGlow03" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#A67CFF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#140A2F" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="triStroke03" x1="20%" y1="10%" x2="90%" y2="90%">
+      <stop offset="0%" stop-color="#F7EDFF" />
+      <stop offset="100%" stop-color="#5C3CD8" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="44" fill="#060316" />
+  <path d="M100 40L156 150H44L100 40Z" fill="url(#triGlow03)" />
+  <path d="M100 55L140.5 140.5H59.5L100 55Z" stroke="url(#triStroke03)" stroke-width="10" fill="none" stroke-linejoin="round" />
+  <circle cx="100" cy="110" r="22" stroke="#C8B4FF" stroke-opacity="0.6" stroke-width="4" />
+  <circle cx="100" cy="110" r="6" fill="#E7DBFF" />
+</svg>

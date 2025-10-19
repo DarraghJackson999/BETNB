@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <conicGradient id="spiral12" from="90deg">
+      <stop offset="0%" stop-color="#F5EEFF" />
+      <stop offset="45%" stop-color="#8B65FF" />
+      <stop offset="100%" stop-color="#3B1E70" />
+    </conicGradient>
+  </defs>
+  <rect width="200" height="200" rx="60" fill="#050213" />
+  <circle cx="100" cy="100" r="70" fill="url(#spiral12)" opacity="0.85" />
+  <circle cx="100" cy="100" r="42" fill="#100628" />
+  <path d="M72 128C92 148 128 144 144 116" stroke="#D4C2FF" stroke-width="6" stroke-linecap="round" opacity="0.4" />
+</svg>

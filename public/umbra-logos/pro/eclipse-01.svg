@@ -1,0 +1,17 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="eclipseCore" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#F5F2FF" />
+      <stop offset="100%" stop-color="#7D5CFF" />
+    </radialGradient>
+    <linearGradient id="eclipseRing" x1="15%" y1="20%" x2="85%" y2="80%">
+      <stop offset="0%" stop-color="#E6DEFF" />
+      <stop offset="50%" stop-color="#9D82FF" />
+      <stop offset="100%" stop-color="#5138B8" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="48" fill="#050214" />
+  <circle cx="100" cy="100" r="62" stroke="url(#eclipseRing)" stroke-width="12" fill="none" />
+  <circle cx="88" cy="92" r="42" fill="url(#eclipseCore)" />
+  <circle cx="134" cy="70" r="8" fill="#E9E1FF" opacity="0.55" />
+</svg>

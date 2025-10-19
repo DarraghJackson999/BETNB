@@ -1,23 +1,21 @@
 @import 'tailwindcss';
 
 :root {
-  --background: #080704;
-  --foreground: #f5f1e6;
-  --brand-gold: #fbd24d;
-  --brand-gold-soft: rgba(251, 210, 77, 0.08);
-  --brand-ink: #14100a;
-  --card: rgba(20, 16, 10, 0.92);
-  --border: rgba(49, 40, 24, 0.72);
-}
-
-@theme inline {
+  --background: #050312;
+  --foreground: #ffffff;
+  --brand-primary: #7f5bff;
+  --brand-primary-soft: rgba(127, 91, 255, 0.18);
+  --brand-ink: #140d2d;
+  --card: rgba(14, 10, 30, 0.76);
+  --border: rgba(127, 91, 255, 0.28);
+  --grid-x: 0px;
+  --grid-y: 0px;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-muted: #9d9278;
+  --color-muted: #bcb0e6;
   --color-card: var(--card);
-  --color-border: var(--border);
-  --color-primary: var(--brand-gold);
-  --color-secondary: #221b10;
+  --color-primary: var(--brand-primary);
+  --color-secondary: #17112d;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --radius: 1.5rem;
@@ -29,9 +27,76 @@ body {
   color: var(--foreground);
 }
 
+@layer utilities {
+  .bg-grid-overlay {
+    background-position:
+      calc(var(--grid-x, 0px) * 0.6) calc(var(--grid-y, 0px) * 0.6),
+      calc(var(--grid-x, 0px) * -0.6) calc(var(--grid-y, 0px) * -0.6);
+    background-image:
+      linear-gradient(rgba(127, 91, 255, 0.24) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(127, 91, 255, 0.18) 1px, transparent 1px);
+    background-size:
+      64px 64px,
+      64px 64px;
+  }
+
+  .bg-grid-overlay-strong {
+    background-image:
+      linear-gradient(rgba(186, 164, 255, 0.2) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(186, 164, 255, 0.16) 1px, transparent 1px);
+    background-position:
+      calc(var(--grid-x, 0px) * 1.2) calc(var(--grid-y, 0px) * 1.2),
+      calc(var(--grid-x, 0px) * -1.2) calc(var(--grid-y, 0px) * -1.2);
+    background-size:
+      32px 32px,
+      32px 32px;
+    mix-blend-mode: screen;
+  }
+
+  .animate-grid-shift {
+    animation: gridShift 26s linear infinite;
+  }
+
+  .animate-grid-shift-reverse {
+    animation: gridShift 34s linear infinite reverse;
+  }
+  .button-mouse-glow::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+      140px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+      rgba(220, 205, 255, 0.22),
+      transparent 65%
+    );
+    opacity: 0;
+    transition: opacity 200ms ease;
+    pointer-events: none;
+    mix-blend-mode: screen;
+  }
+
+  .button-mouse-glow:hover::after,
+  .button-mouse-glow:focus-visible::after {
+    opacity: 1;
+  }
+}
+
+@keyframes gridShift {
+  from {
+    background-position:
+      0 0,
+      0 0;
+  }
+  to {
+    background-position:
+      160px 160px,
+      160px 160px;
+  }
+}
+
 * {
   scrollbar-width: thin;
-  scrollbar-color: #3a2f1a transparent;
+  scrollbar-color: #7f5bff transparent;
 }
 
 *::-webkit-scrollbar {
@@ -40,6 +105,6 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-  background: #3a2f1a;
+  background: #7f5bff;
   border-radius: 9999px;
 }

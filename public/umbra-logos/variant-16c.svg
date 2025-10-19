@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wave16c_lower" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#27164A" />
+      <stop offset="100%" stop-color="#6D4FE2" />
+    </linearGradient>
+    <linearGradient id="wave16c_upper" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F6F1FF" />
+      <stop offset="100%" stop-color="#7D5BFF" />
+    </linearGradient>
+    <linearGradient id="ring16c" x1="20%" y1="30%" x2="80%" y2="70%">
+      <stop offset="0%" stop-color="#E9DDFF" />
+      <stop offset="100%" stop-color="#825BFF" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="56" fill="#040112" />
+  <path d="M36 118C54 106 80 98 102 102C124 106 146 98 164 84V166H36V118Z" fill="#120828" />
+  <path d="M36 132C56 120 82 114 104 118C130 122 148 112 164 102V166H36V132Z" fill="url(#wave16c_lower)" />
+  <path d="M36 144C58 134 82 130 106 134C132 138 150 128 164 118V166H36V144Z" fill="url(#wave16c_upper)" opacity="0.88" />
+  <ellipse cx="130" cy="70" rx="26" ry="16" stroke="url(#ring16c)" stroke-width="8" fill="none" />
+  <circle cx="130" cy="70" r="10" fill="#F7F0FF" />
+  <circle cx="70" cy="150" r="5" fill="#9C7FFF" opacity="0.35" />
+</svg>

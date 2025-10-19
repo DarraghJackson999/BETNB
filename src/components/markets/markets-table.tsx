@@ -21,10 +21,10 @@ type MarketsTableProps = {
 
 export function MarketsTable({ markets }: MarketsTableProps) {
   return (
-    <div className="rounded-3xl border border-[#2f2716] bg-[#12100a]/95 p-4">
+    <div className="rounded-3xl border border-[rgba(127,91,255,0.28)] bg-[rgba(10,7,27,0.92)] p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
       <Table>
         <TableHeader>
-          <TableRow className="text-xs uppercase tracking-wide text-[#6f6550]">
+          <TableRow className="text-xs uppercase tracking-wide text-[#d7ccff]">
             <TableHead className="w-[42%]">Market</TableHead>
             <TableHead>Yes</TableHead>
             <TableHead>No</TableHead>
@@ -42,26 +42,28 @@ export function MarketsTable({ markets }: MarketsTableProps) {
                 <TableCell>
                   <Link
                     href={`/markets/${market.slug}`}
-                    className="font-medium text-[#f5f1e6] transition hover:text-[#fbd24d]"
+                    className="font-medium text-white transition hover:text-white/80"
                   >
                     {market.question}
                   </Link>
-                  <div className="mt-2 flex flex-wrap items-center gap-2 text-xs text-[#6f6550]">
+                  <div className="mt-2 flex flex-wrap items-center gap-2 text-xs text-[#a89dd4]">
                     <Badge variant="outline">{market.category}</Badge>
                     <span>Liquidity ${(market.liquidity / 1000).toFixed(0)}k</span>
                   </div>
                 </TableCell>
-                <TableCell className="font-semibold text-[#f5f1e6]">
+                <TableCell className="font-semibold text-white">
                   {formatPrice(yes.price)}
                 </TableCell>
-                <TableCell className="text-[#d9cfba]">{formatPrice(no.price)}</TableCell>
+                <TableCell className="text-[#a3b5ff] opacity-80">
+                  {formatPrice(no.price)}
+                </TableCell>
                 <TableCell className="text-center">
                   <span
                     className={cn(
                       'inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-medium',
                       yes.change >= 0
-                        ? 'bg-[#1e2b19] text-[#8be280]'
-                        : 'bg-[#2d1316] text-[#f08080]'
+                        ? 'bg-[rgba(127,91,255,0.24)] text-white'
+                        : 'bg-[rgba(97,36,77,0.6)] text-[#ff9bb4]'
                     )}
                   >
                     <TrendingUp size={12} />
@@ -69,10 +71,10 @@ export function MarketsTable({ markets }: MarketsTableProps) {
                     {(yes.change * 100).toFixed(1)}%
                   </span>
                 </TableCell>
-                <TableCell className="text-center text-[#d9cfba]">
+                <TableCell className="text-center text-[#a3b5ff] opacity-80">
                   ${(market.liquidity / 1000).toFixed(0)}k
                 </TableCell>
-                <TableCell className="text-right text-[#d9cfba]">
+                <TableCell className="text-right text-[#a3b5ff] opacity-80">
                   {market.resolveDate.slice(0, 10)}
                 </TableCell>
               </TableRow>

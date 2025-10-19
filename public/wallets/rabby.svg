@@ -1,0 +1,13 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rabby-gradient" x1="12" y1="8" x2="52" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff9f68" />
+      <stop offset="1" stop-color="#ff5b7a" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#rabby-gradient)" />
+  <path d="M22 38C22 30.82 26.82 26 34 26C41.18 26 46 30.82 46 38C46 44.07 41.31 48 34 48C26.69 48 22 44.06 22 38Z" fill="white" />
+  <path d="M24 24C25.66 21.12 28.42 19 32 19C35.58 19 38.34 21.12 40 24" stroke="white" stroke-width="4" stroke-linecap="round" />
+  <circle cx="30" cy="37" r="2" fill="#ff6f8f" />
+  <circle cx="38" cy="37" r="2" fill="#ff6f8f" />
+</svg>

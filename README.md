@@ -1,13 +1,12 @@
-## BETNB
+## UmbraMarkets
 
-BETNB is a Polymarket-inspired prediction exchange experience tuned for the BNB Chain ecosystem. The UI showcases:
+UmbraMarkets is a dark-pool inspired prediction exchange experience tuned for the BNB Chain ecosystem. The demo ships as a polished, self-contained product surface that mirrors the institutional desk narrative without relying on production services.
 
-- 📘 Documentation: https://docs.betnb.gitbook.io/betnb (replace with the live GitBook URL once published)
-
-- Realistic market catalogue with categories (politics, crypto, macro, sports, and more)
-- Rich market detail views featuring pricing charts, liquidity vitals, and contextual news
-- Interactive portfolio dashboard with simulated balances, PnL, and exposure analytics
-- Wallet connection flow that mimics popular providers without touching real funds
+- 📘 Documentation lives at `/docs` and captures the UmbraMarkets playbook, data model, and operations guidance.
+- Curated home experience with hero markets, liquidity pulse, and live event feed.
+- Markets catalogue featuring sortable tables, category filters, and detail screens with liquidity vitals.
+- Portfolio, insights, and leaderboard routes showcasing balances, analytics, and trader stories.
+- Wallet connection flow that simulates popular providers without touching real funds.
 
 The app ships with mock market, position, and balance data stored locally under `src/lib/data` to keep the experience vivid while remaining self-contained.
 

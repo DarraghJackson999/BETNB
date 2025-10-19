@@ -16,7 +16,7 @@ import {
 } from '@/components/ui/table'
 import { PnlChart } from '@/components/portfolio/pnl-chart'
 import { balances, markets, positions } from '@/lib/data'
-import { formatPrice, formatUsd } from '@/lib/utils'
+import { cn, formatPrice, formatUsd } from '@/lib/utils'
 
 const pnlHistory = [
   { day: 'Mon', value: 120 },
@@ -40,8 +40,8 @@ export default function PortfolioPage() {
     <div className="mx-auto flex w-full max-w-[1180px] flex-col gap-10 px-6 pb-20">
       <header className="space-y-3">
         <Badge className="uppercase tracking-[0.3em]">Portfolio</Badge>
-        <h1 className="text-3xl font-semibold text-[#f5f1e6]">Your trading cockpit</h1>
-        <p className="max-w-2xl text-base text-[#bfb59f]">
+        <h1 className="text-3xl font-semibold text-white">Your trading cockpit</h1>
+        <p className="max-w-2xl text-base text-[#d7ccff]">
           Track open positions, monitor PnL, and see where your BNB is working. Connect
           Phantom to sync live wallet balances and trades.
         </p>
@@ -65,20 +65,20 @@ export default function PortfolioPage() {
         />
       </div>
 
-      <Card className="border-[#2f2716]/80 bg-[#141007]/95">
+      <Card>
         <CardHeader className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
           <div>
-            <CardTitle className="text-[#f5f1e6]">7-day PnL curve</CardTitle>
-            <CardDescription className="text-[#6f6550]">
+            <CardTitle className="text-white">7-day PnL curve</CardTitle>
+            <CardDescription className="text-[#cbbdff]">
               Once connected, we chart your realized and unrealized performance.
             </CardDescription>
           </div>
           {positions.length > 0 ? (
-            <div className="rounded-full bg-[#1f1a12] px-4 py-2 text-sm text-[#fbd24d]">
+            <div className="rounded-full bg-[rgba(136,106,240,0.25)] px-4 py-2 text-sm text-white">
               +{performance}% weekly performance
             </div>
           ) : (
-            <div className="rounded-full bg-[#1f1a12] px-4 py-2 text-sm text-[#9d9278]">
+            <div className="rounded-full bg-[rgba(136,106,240,0.2)] px-4 py-2 text-sm text-[#d7ccff]">
               Connect Phantom to populate stats
             </div>
           )}
@@ -89,10 +89,10 @@ export default function PortfolioPage() {
       </Card>
 
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_320px]">
-        <Card className="border-[#2f2716]/80 bg-[#141007]/95">
+        <Card>
           <CardHeader>
-            <CardTitle className="text-[#f5f1e6]">Open positions</CardTitle>
-            <CardDescription className="text-[#6f6550]">
+            <CardTitle className="text-white">Open positions</CardTitle>
+            <CardDescription className="text-[#cbbdff]">
               Current trades with mark price vs. entry. Orders update once your wallet is
               connected.
             </CardDescription>
@@ -112,7 +112,7 @@ export default function PortfolioPage() {
               <TableBody>
                 {positions.length === 0 ? (
                   <TableRow>
-                    <TableCell colSpan={6} className="text-center text-[#9d9278]">
+                    <TableCell colSpan={6} className="text-center text-[#d7ccff]">
                       No positions yet. Connect your wallet and place your first trade.
                     </TableCell>
                   </TableRow>
@@ -122,10 +122,10 @@ export default function PortfolioPage() {
                     return (
                       <TableRow key={position.id}>
                         <TableCell>
-                          <div className="font-medium text-[#f5f1e6]">
+                          <div className="font-medium text-white">
                             {position.marketQuestion}
                           </div>
-                          <div className="text-xs text-[#6f6550]">
+                          <div className="text-xs text-[#cbbdff]">
                             {market?.category ?? ''}
                           </div>
                         </TableCell>
@@ -138,11 +138,11 @@ export default function PortfolioPage() {
                         </TableCell>
                         <TableCell>{formatPrice(position.entryPrice)}</TableCell>
                         <TableCell>{formatPrice(position.currentPrice)}</TableCell>
-                        <TableCell className="text-right text-[#d9cfba]">
+                        <TableCell className="text-right text-[#d7ccff]">
                           {position.quantity.toLocaleString()}
                         </TableCell>
                         <TableCell
-                          className={`text-right ${position.pnl >= 0 ? 'text-[#8be280]' : 'text-[#f08080]'}`}
+                          className={`text-right ${position.pnl >= 0 ? 'text-[#8fd8ff]' : 'text-[#ff92b2]'}`}
                         >
                           {`${position.pnl >= 0 ? '+' : '-'}${formatUsd(Math.abs(position.pnl))}`}
                         </TableCell>
@@ -155,31 +155,31 @@ export default function PortfolioPage() {
           </CardContent>
         </Card>
 
-        <Card className="border-[#2f2716]/80 bg-[#141007]/95">
+        <Card>
           <CardHeader>
-            <CardTitle className="text-sm uppercase tracking-wide text-[#9d9278]">
+            <CardTitle className="text-sm uppercase tracking-wide text-[#cbbdff]">
               Wallet balances
             </CardTitle>
-            <CardDescription className="text-[#6f6550]">
+            <CardDescription className="text-[#cbbdff]">
               Live balances appear after you connect Phantom in the header.
             </CardDescription>
           </CardHeader>
-          <CardContent className="space-y-4 text-sm text-[#d9cfba]">
+          <CardContent className="space-y-4 text-sm text-[#d7ccff]">
             {balances.length === 0 ? (
-              <div className="rounded-2xl border border-dashed border-[#3a311f] bg-[#1a150c] px-4 py-3 text-[#9d9278]">
+              <div className="rounded-2xl border border-dashed border-[rgba(127,91,255,0.35)] bg-[rgba(21,14,52,0.65)] px-4 py-3 text-[#cbbdff]">
                 Wallet balances will appear once a connected Phantom address is detected.
               </div>
             ) : (
               balances.map((balance) => (
                 <div
                   key={balance.symbol}
-                  className="flex items-center justify-between rounded-2xl border border-[#2d2617] bg-[#18120b] px-4 py-3"
+                  className="flex items-center justify-between rounded-2xl border border-[rgba(127,91,255,0.32)] bg-[rgba(24,16,62,0.78)] px-4 py-3"
                 >
                   <div>
-                    <div className="text-xs uppercase tracking-wide text-[#6f6550]">
+                    <div className="text-xs uppercase tracking-wide text-[#cbbdff]">
                       {balance.token}
                     </div>
-                    <div className="text-lg font-semibold text-[#f5f1e6]">
+                    <div className="text-lg font-semibold text-white">
                       {balance.amount.toLocaleString(undefined, {
                         maximumFractionDigits: 2,
                       })}
@@ -187,7 +187,7 @@ export default function PortfolioPage() {
                   </div>
                   <div
                     className={
-                      balance.change24h >= 0 ? 'text-[#8be280]' : 'text-[#f08080]'
+                      balance.change24h >= 0 ? 'text-[#8fd8ff]' : 'text-[#ff92b2]'
                     }
                   >
                     {balance.change24h >= 0 ? '+' : ''}
@@ -212,11 +212,13 @@ type PortfolioStatProps = {
 function PortfolioStat({ label, value, accent }: PortfolioStatProps) {
   return (
     <Card
-      className={`border-[#2f2716]/80 bg-[#141007]/95 ${accent === 'positive' ? 'shadow-[0_25px_60px_rgba(139,226,128,0.2)]' : ''}`}
+      className={cn(
+        accent === 'positive' && 'shadow-[0_20px_54px_rgba(143,216,255,0.2)]'
+      )}
     >
       <CardContent className="space-y-1 p-6">
-        <div className="text-xs uppercase tracking-wide text-[#6f6550]">{label}</div>
-        <div className="text-2xl font-semibold text-[#f5f1e6]">{value}</div>
+        <div className="text-xs uppercase tracking-wide text-[#cbbdff]">{label}</div>
+        <div className="text-2xl font-semibold text-white">{value}</div>
       </CardContent>
     </Card>
   )

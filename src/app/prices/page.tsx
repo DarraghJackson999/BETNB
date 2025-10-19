@@ -57,8 +57,8 @@ export default async function PricesPage() {
       <header className="space-y-3">
         <h1 className="text-3xl font-semibold text-[#f5f1e6]">Live crypto board</h1>
         <p className="max-w-2xl text-base text-[#bfb59f]">
-          Real-time spot prices for the assets that matter most on BETNB. Refreshes each
-          time you open the page.
+          Real-time spot prices for the assets that matter most for our BNB darkpool desk.
+          Refreshes each time you open the page.
         </p>
       </header>
 

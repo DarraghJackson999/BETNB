@@ -33,19 +33,19 @@ export function MarketDiscovery() {
     <div id="markets" className="space-y-8">
       <CategoryFilters markets={allMarkets} onChange={setCategory} />
       <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-        <TabsList className="flex flex-wrap gap-3 rounded-3xl border border-[#2d2617] bg-[#15110a] p-2">
+        <TabsList className="flex flex-nowrap items-center gap-3 overflow-x-auto rounded-3xl border border-[rgba(127,91,255,0.32)] bg-[rgba(10,7,27,0.92)] p-2 backdrop-blur shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
           <TabsTrigger value="grid">Featured</TabsTrigger>
           <TabsTrigger value="table">Full board</TabsTrigger>
           <TabsTrigger value="liquid">Liquidity heavy</TabsTrigger>
           <TabsTrigger value="ending">Closing soon</TabsTrigger>
         </TabsList>
         <TabsContent value="grid">
-          <div className="grid gap-6 lg:grid-cols-2">
+          <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
             {(showAllFeatured ? filtered : filtered.slice(0, 6)).map((market, index) => (
               <MarketCard
                 key={market.id}
                 market={market}
-                accent={index % 2 === 0 ? 'gold' : 'emerald'}
+                accent={index % 2 === 0 ? 'violet' : 'plum'}
               />
             ))}
           </div>

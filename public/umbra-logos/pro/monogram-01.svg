@@ -1,0 +1,12 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="monogramStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4EEFF" />
+      <stop offset="100%" stop-color="#7B5AFF" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="44" fill="#040211" />
+  <path d="M60 56V120C60 142 76 158 100 158C124 158 140 142 140 120V56" stroke="url(#monogramStroke)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <path d="M60 108C76 108 92 96 100 82C108 96 124 108 140 108" stroke="#3B2377" stroke-width="12" stroke-linecap="round" />
+  <circle cx="100" cy="158" r="6" fill="#E8E0FF" />
+</svg>

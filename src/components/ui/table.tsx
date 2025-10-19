@@ -8,7 +8,7 @@ const Table = React.forwardRef<HTMLTableElement, React.HTMLAttributes<HTMLTableE
       <table
         ref={ref}
         className={cn(
-          'w-full text-left text-sm text-[#d9d0be]',
+          'w-full text-left text-sm text-white',
           '[&_thead]:text-xs [&_thead_th]:uppercase [&_thead_th]:tracking-wide',
           className
         )}
@@ -23,7 +23,7 @@ const TableHeader = React.forwardRef<
   HTMLTableSectionElement,
   React.HTMLAttributes<HTMLTableSectionElement>
 >(({ className, ...props }, ref) => (
-  <thead ref={ref} className={cn('text-[#94876d]', className)} {...props} />
+  <thead ref={ref} className={cn('text-[#d7ccff]', className)} {...props} />
 ))
 TableHeader.displayName = 'TableHeader'
 
@@ -31,7 +31,11 @@ const TableBody = React.forwardRef<
   HTMLTableSectionElement,
   React.HTMLAttributes<HTMLTableSectionElement>
 >(({ className, ...props }, ref) => (
-  <tbody ref={ref} className={cn('divide-y divide-[#2a2316]', className)} {...props} />
+  <tbody
+    ref={ref}
+    className={cn('divide-y divide-[rgba(127,91,255,0.16)]', className)}
+    {...props}
+  />
 ))
 TableBody.displayName = 'TableBody'
 
@@ -42,8 +46,8 @@ const TableRow = React.forwardRef<
   <tr
     ref={ref}
     className={cn(
-      'transition-colors hover:bg-[#221c11]/80',
-      'data-[state=selected]:bg-[#2f2614]',
+      'transition-colors hover:bg-[rgba(127,91,255,0.14)]',
+      'data-[state=selected]:bg-[rgba(127,91,255,0.22)]',
       className
     )}
     {...props}
@@ -58,7 +62,7 @@ const TableHead = React.forwardRef<
   <th
     ref={ref}
     className={cn(
-      'px-4 py-3 font-medium uppercase tracking-wide text-[#94876d] first:rounded-l-xl last:rounded-r-xl',
+      'px-4 py-3 font-medium uppercase tracking-wide text-[#d7ccff] first:rounded-l-xl last:rounded-r-xl',
       className
     )}
     {...props}
@@ -72,7 +76,7 @@ const TableCell = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <td
     ref={ref}
-    className={cn('px-4 py-4 align-middle text-sm text-[#e1d9c7]', className)}
+    className={cn('px-4 py-4 align-middle text-sm text-white', className)}
     {...props}
   />
 ))

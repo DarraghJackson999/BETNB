@@ -2,8 +2,8 @@
 
 import { FormEvent, ReactNode, useEffect, useMemo, useState } from 'react'
 
-const STORAGE_KEY = 'betnb-site-password'
-const ACCESS_PASSWORD = (process.env.NEXT_PUBLIC_SITE_PASSWORD ?? 'betnb').trim()
+const STORAGE_KEY = 'bnb-darkpool-site-password'
+const ACCESS_PASSWORD = (process.env.NEXT_PUBLIC_SITE_PASSWORD ?? 'bnbdark').trim()
 
 interface PasswordGateProps {
   children: ReactNode
@@ -57,7 +57,7 @@ export function PasswordGate({ children }: PasswordGateProps) {
         <div className="space-y-2 text-center">
           <h1 className="text-lg font-semibold tracking-wide">Restricted Access</h1>
           <p className="text-sm text-white/60">
-            Enter the access password to view BETNB.
+            Enter the access password to view the BNB darkpool desk.
           </p>
         </div>
         <div className="space-y-2">

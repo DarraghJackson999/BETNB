@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg07a" cx="65%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#7F5CFF" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#050214" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="swoosh07a" x1="15%" y1="85%" x2="85%" y2="15%">
+      <stop offset="0%" stop-color="#4C2BA8" />
+      <stop offset="45%" stop-color="#7F5DFF" />
+      <stop offset="100%" stop-color="#EDE4FF" />
+    </linearGradient>
+    <linearGradient id="swoosh07a_highlight" x1="20%" y1="80%" x2="80%" y2="20%">
+      <stop offset="0%" stop-color="#F5EEFF" />
+      <stop offset="100%" stop-color="#9C7DFF" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="60" fill="#070414" />
+  <rect width="200" height="200" rx="60" fill="url(#bg07a)" />
+  <path d="M40 138C72 108 124 80 164 72C142 92 120 124 110 158" stroke="url(#swoosh07a)" stroke-width="20" stroke-linecap="round" />
+  <path d="M54 140C82 116 124 94 154 90C136 106 116 132 108 160" stroke="url(#swoosh07a_highlight)" stroke-width="10" stroke-linecap="round" opacity="0.9" />
+  <circle cx="108" cy="164" r="10" fill="#F5EEFF" />
+</svg>

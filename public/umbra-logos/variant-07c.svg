@@ -1,0 +1,27 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg07c" cx="65%" cy="25%" r="80%">
+      <stop offset="0%" stop-color="#7D5BFF" stop-opacity="0.42" />
+      <stop offset="100%" stop-color="#040111" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="stream07c" x1="12%" y1="90%" x2="88%" y2="10%">
+      <stop offset="0%" stop-color="#3A1F7A" />
+      <stop offset="50%" stop-color="#7556F5" />
+      <stop offset="100%" stop-color="#EFE5FF" />
+    </linearGradient>
+    <linearGradient id="stream07c_inner" x1="18%" y1="82%" x2="82%" y2="18%">
+      <stop offset="0%" stop-color="#F7F1FF" />
+      <stop offset="100%" stop-color="#9278FF" />
+    </linearGradient>
+    <radialGradient id="planet07c" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F5EEFF" />
+      <stop offset="100%" stop-color="#805DFF" />
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="60" fill="#050213" />
+  <rect width="200" height="200" rx="60" fill="url(#bg07c)" />
+  <path d="M38 140C72 112 120 84 166 76C144 98 120 138 110 170" stroke="url(#stream07c)" stroke-width="18" stroke-linecap="round" />
+  <path d="M54 142C84 118 124 96 156 90C136 110 116 140 108 172" stroke="url(#stream07c_inner)" stroke-width="10" stroke-linecap="round" opacity="0.9" />
+  <circle cx="164" cy="76" r="18" fill="url(#planet07c)" />
+  <circle cx="110" cy="174" r="12" fill="#F6F0FF" />
+</svg>

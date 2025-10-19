@@ -1,0 +1,25 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="horizonBase" x1="18%" y1="22%" x2="82%" y2="88%">
+      <stop offset="0%" stop-color="#140a2f" />
+      <stop offset="55%" stop-color="#0d0620" />
+      <stop offset="100%" stop-color="#160b30" />
+    </linearGradient>
+    <linearGradient id="horizonArc" x1="20%" y1="22%" x2="78%" y2="86%">
+      <stop offset="0%" stop-color="#f3ecff" />
+      <stop offset="60%" stop-color="#c7afff" />
+      <stop offset="100%" stop-color="#5b36d4" />
+    </linearGradient>
+    <linearGradient id="horizonGlow" x1="35%" y1="36%" x2="70%" y2="84%">
+      <stop offset="0%" stop-color="#241644" stop-opacity="0.12" />
+      <stop offset="55%" stop-color="#241644" stop-opacity="0.54" />
+      <stop offset="100%" stop-color="#140a2b" stop-opacity="0.82" />
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="48" fill="url(#horizonBase)" />
+  <path d="M40 96c10-28 26-44 40-44s30 16 40 44" stroke="url(#horizonArc)" stroke-width="12" stroke-linecap="round" fill="none" />
+  <path d="M52 96c6-18 16-28 28-28s22 10 28 28" stroke="#8361ff" stroke-opacity="0.4" stroke-width="6" stroke-linecap="round" fill="none" />
+  <rect x="40" y="96" width="80" height="14" rx="7" fill="url(#horizonGlow)" />
+  <circle cx="60" cy="60" r="5" fill="#ddccff" opacity="0.38" />
+  <circle cx="96" cy="52" r="4" fill="#b69eff" opacity="0.3" />
+</svg>

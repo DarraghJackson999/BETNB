@@ -10,9 +10,9 @@ const stats = [
     icon: LineChart,
   },
   {
-    label: 'BNB Liquidity',
+    label: 'Umbra Liquidity',
     value: '$46.2k',
-    detail: 'Community-seeded bootstrapped pool',
+    detail: 'Institutional queue depth live on desk',
     icon: Coins,
   },
   {
@@ -29,17 +29,17 @@ export function MarketOverviewStats() {
       {stats.map((stat) => {
         const Icon = stat.icon
         return (
-          <Card key={stat.label} className="border-[#2e2617]/80 bg-[#141007]/95">
+          <Card key={stat.label}>
             <CardContent className="flex items-center gap-4 p-6">
-              <span className="rounded-2xl bg-[#1f1a12] p-3 text-[#fbd24d]">
+              <span className="rounded-2xl bg-[rgba(127,91,255,0.2)] p-3 text-[#d7c6ff] shadow-[0_12px_28px_rgba(86,58,164,0.26)]">
                 <Icon size={20} />
               </span>
               <div>
-                <div className="text-xs uppercase tracking-wide text-[#6f6550]">
+                <div className="text-xs uppercase tracking-wide text-[#a89dd4]">
                   {stat.label}
                 </div>
-                <div className="text-xl font-semibold text-[#f5f1e6]">{stat.value}</div>
-                <div className="text-xs text-[#9d9278]">{stat.detail}</div>
+                <div className="text-xl font-semibold text-white">{stat.value}</div>
+                <div className="text-xs text-[#b9a8ef] opacity-80">{stat.detail}</div>
               </div>
             </CardContent>
           </Card>

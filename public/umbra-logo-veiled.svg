@@ -1,0 +1,25 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="veilBackdrop" x1="24%" y1="18%" x2="76%" y2="90%">
+      <stop offset="0%" stop-color="#110824" />
+      <stop offset="55%" stop-color="#0b0517" />
+      <stop offset="100%" stop-color="#150b2f" />
+    </linearGradient>
+    <linearGradient id="veilStrand" x1="26%" y1="24%" x2="80%" y2="86%">
+      <stop offset="0%" stop-color="#f2ebff" />
+      <stop offset="48%" stop-color="#cab1ff" />
+      <stop offset="100%" stop-color="#633fda" />
+    </linearGradient>
+    <linearGradient id="veilCore" x1="40%" y1="32%" x2="68%" y2="84%">
+      <stop offset="0%" stop-color="#28194b" stop-opacity="0.08" />
+      <stop offset="55%" stop-color="#28194b" stop-opacity="0.52" />
+      <stop offset="100%" stop-color="#160b30" stop-opacity="0.82" />
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="48" fill="url(#veilBackdrop)" />
+  <path d="M48 112c0-36 18-64 32-64s32 28 32 64" stroke="url(#veilStrand)" stroke-width="14" stroke-linecap="round" fill="none" />
+  <path d="M58 108c0-28 12-48 22-48s22 20 22 48" stroke="#8f6bff" stroke-opacity="0.38" stroke-width="6" stroke-linecap="round" fill="none" />
+  <circle cx="80" cy="76" r="24" fill="url(#veilCore)" />
+  <circle cx="62" cy="56" r="5" fill="#decdff" opacity="0.38" />
+  <circle cx="100" cy="60" r="4" fill="#bca2ff" opacity="0.3" />
+</svg>

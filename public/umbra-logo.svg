@@ -1,0 +1,34 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="umbraGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#8f6aff" stop-opacity="0.65" />
+      <stop offset="70%" stop-color="#7a57ff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#5d3acc" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="umbraRing" x1="15%" y1="20%" x2="85%" y2="80%">
+      <stop offset="0%" stop-color="#cdb7ff" />
+      <stop offset="45%" stop-color="#9b7bff" />
+      <stop offset="100%" stop-color="#5c3bd8" />
+    </linearGradient>
+    <linearGradient id="umbraCore" x1="35%" y1="30%" x2="70%" y2="90%">
+      <stop offset="0%" stop-color="#2b1d52" stop-opacity="0.0" />
+      <stop offset="60%" stop-color="#2b1d52" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#1b1338" stop-opacity="0.65" />
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="48" fill="#070414" />
+  <circle cx="80" cy="80" r="64" fill="url(#umbraGlow)" />
+  <circle
+    cx="80"
+    cy="80"
+    r="50"
+    stroke="url(#umbraRing)"
+    stroke-width="12"
+    stroke-linecap="round"
+    stroke-dasharray="240 80"
+    stroke-dashoffset="-42"
+    fill="none"
+  />
+  <circle cx="80" cy="80" r="32" fill="url(#umbraCore)" />
+  <circle cx="48" cy="58" r="6" fill="#cdb7ff" opacity="0.28" />
+</svg>

@@ -1,0 +1,26 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="pulseGlow" cx="50%" cy="50%" r="68%">
+      <stop offset="0%" stop-color="#c2b0ff" stop-opacity="0.5" />
+      <stop offset="55%" stop-color="#8b6cff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#190f38" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="pulseWave" x1="18%" y1="24%" x2="90%" y2="76%">
+      <stop offset="0%" stop-color="#f2eaff" />
+      <stop offset="45%" stop-color="#c6aaff" />
+      <stop offset="100%" stop-color="#5f39da" />
+    </linearGradient>
+    <linearGradient id="pulseCore" x1="36%" y1="28%" x2="64%" y2="82%">
+      <stop offset="0%" stop-color="#22163f" stop-opacity="0.08" />
+      <stop offset="60%" stop-color="#22163f" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#140a2c" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="48" fill="#070314" />
+  <circle cx="80" cy="80" r="64" fill="url(#pulseGlow)" />
+  <path d="M46 80c10-18 24-28 34-28s20 10 30 28c-10 18-20 28-30 28s-24-10-34-28z" stroke="url(#pulseWave)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <circle cx="80" cy="80" r="28" fill="url(#pulseCore)" />
+  <path d="M56 80h48" stroke="#8e6bff" stroke-opacity="0.3" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 8" />
+  <circle cx="64" cy="60" r="5" fill="#e5d7ff" opacity="0.4" />
+  <circle cx="104" cy="86" r="4" fill="#bda3ff" opacity="0.3" />
+</svg>

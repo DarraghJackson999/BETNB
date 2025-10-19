@@ -12,28 +12,33 @@ export function PnlChart({ data }: PnlChartProps) {
       <AreaChart data={data}>
         <defs>
           <linearGradient id="pnlGradient" x1="0" x2="0" y1="0" y2="1">
-            <stop offset="5%" stopColor="#8be280" stopOpacity={0.8} />
-            <stop offset="95%" stopColor="#8be280" stopOpacity={0} />
+            <stop offset="5%" stopColor="#8d6fff" stopOpacity={0.85} />
+            <stop offset="95%" stopColor="#281650" stopOpacity={0} />
           </linearGradient>
         </defs>
-        <XAxis dataKey="day" stroke="#312818" />
+        <XAxis
+          dataKey="day"
+          stroke="rgba(207,195,255,0.45)"
+          tick={{ fill: '#dcd2ff', fontSize: 12 }}
+        />
         <YAxis
-          stroke="#312818"
+          stroke="rgba(207,195,255,0.45)"
+          tick={{ fill: '#dcd2ff', fontSize: 12 }}
           tickFormatter={(value) => `$${(Number(value) / 1000).toFixed(1)}k`}
         />
         <Tooltip
           contentStyle={{
-            background: '#141007',
+            background: 'rgba(18,12,45,0.96)',
             borderRadius: 16,
-            border: '1px solid #302613',
-            color: '#f5f1e6',
+            border: '1px solid rgba(127,91,255,0.4)',
+            color: '#ffffff',
           }}
           formatter={(value: number) => `$${value.toLocaleString()}`}
         />
         <Area
           type="monotone"
           dataKey="value"
-          stroke="#8be280"
+          stroke="#ab94ff"
           fill="url(#pnlGradient)"
           strokeWidth={2}
         />

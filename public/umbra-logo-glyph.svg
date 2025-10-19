@@ -1,0 +1,24 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glyphBackdrop" x1="20%" y1="15%" x2="80%" y2="85%">
+      <stop offset="0%" stop-color="#140a2f" />
+      <stop offset="50%" stop-color="#0c0620" />
+      <stop offset="100%" stop-color="#12082d" />
+    </linearGradient>
+    <linearGradient id="glyphEdge" x1="28%" y1="12%" x2="78%" y2="90%">
+      <stop offset="0%" stop-color="#f4ecff" />
+      <stop offset="52%" stop-color="#c3a9ff" />
+      <stop offset="100%" stop-color="#5f3bda" />
+    </linearGradient>
+    <linearGradient id="glyphCore" x1="36%" y1="32%" x2="68%" y2="88%">
+      <stop offset="0%" stop-color="#2c1d58" stop-opacity="0" />
+      <stop offset="55%" stop-color="#2c1d58" stop-opacity="0.42" />
+      <stop offset="100%" stop-color="#170d32" stop-opacity="0.7" />
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="48" fill="url(#glyphBackdrop)" />
+  <path d="M80 32c24 10 42 28.8 42 48 0 19.2-18 36-42 48-24-12-42-28.8-42-48 0-19.2 18-38 42-48z" stroke="url(#glyphEdge)" stroke-width="12" stroke-linejoin="round" fill="none" />
+  <path d="M80 48c15.2 8.2 26 20.2 26 32 0 11.6-10.4 22.4-26 30.8-15.6-8.4-26-19.2-26-30.8 0-11.8 10.8-23.8 26-32z" fill="url(#glyphCore)" stroke="#7e5aff" stroke-opacity="0.2" stroke-width="4" />
+  <circle cx="58" cy="58" r="5" fill="#d7c6ff" opacity="0.4" />
+  <circle cx="106" cy="70" r="4" fill="#a78dff" opacity="0.32" />
+</svg>

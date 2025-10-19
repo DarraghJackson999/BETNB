@@ -42,7 +42,7 @@ export function CategoryFilters({ markets, onChange }: CategoryFiltersProps) {
 
   return (
     <div className="flex flex-wrap items-center gap-3">
-      <span className="inline-flex items-center gap-2 rounded-full border border-[#2d2617] bg-[#15110a] px-4 py-2 text-xs uppercase tracking-wide text-[#6f6550]">
+      <span className="inline-flex items-center gap-2 rounded-full border border-[rgba(127,91,255,0.28)] bg-[rgba(10,7,27,0.9)] px-4 py-2 text-xs uppercase tracking-wide text-[#a89dd4] shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
         <Filter size={14} /> Filters
       </span>
       {filters.map((label) => {
@@ -52,14 +52,14 @@ export function CategoryFilters({ markets, onChange }: CategoryFiltersProps) {
             key={label}
             onClick={() => handleClick(label)}
             className={cn(
-              'flex items-center gap-2 rounded-full border px-4 py-2 text-sm transition',
+              'flex items-center gap-2 rounded-full border px-4 py-2 text-sm transition backdrop-blur',
               active === label
-                ? 'border-[#fbd24d]/70 bg-[#241d0d] text-[#f5f1e6]'
-                : 'border-[#2d2617] bg-[#141007] text-[#bfb59f] hover:border-[#fbd24d]/40'
+                ? 'border-[rgba(127,91,255,0.6)] bg-[rgba(127,91,255,0.22)] text-[#f4f0ff] shadow-[0_0_32px_rgba(86,58,164,0.34)]'
+                : 'border-[rgba(127,91,255,0.28)] bg-[rgba(10,7,27,0.85)] text-[#a89dd4] hover:border-[rgba(127,91,255,0.45)] hover:text-[#f4f0ff]'
             )}
           >
             {label}
-            <span className="rounded-full bg-[#1f1a12] px-2 text-xs text-[#fbd24d]">
+            <span className="rounded-full bg-[rgba(127,91,255,0.2)] px-2 text-xs text-[#dfd5ff]">
               {count}
             </span>
           </button>
@@ -68,7 +68,7 @@ export function CategoryFilters({ markets, onChange }: CategoryFiltersProps) {
       <Button
         variant="ghost"
         size="sm"
-        className="ml-auto hidden text-[#fbd24d] md:inline-flex"
+        className="ml-auto hidden text-[#dfd5ff] hover:text-[#f4f0ff] md:inline-flex"
       >
         Advanced
       </Button>

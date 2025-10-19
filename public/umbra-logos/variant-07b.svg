@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg07b" cx="60%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#8B66FF" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#040112" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="trail07b" x1="15%" y1="85%" x2="85%" y2="15%">
+      <stop offset="0%" stop-color="#42248F" />
+      <stop offset="55%" stop-color="#7A5AFF" />
+      <stop offset="100%" stop-color="#F1E9FF" />
+    </linearGradient>
+    <linearGradient id="trail07b_core" x1="20%" y1="80%" x2="80%" y2="20%">
+      <stop offset="0%" stop-color="#F4EDFF" />
+      <stop offset="100%" stop-color="#A78CFF" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="60" fill="#050213" />
+  <rect width="200" height="200" rx="60" fill="url(#bg07b)" />
+  <path d="M36 132C70 102 120 76 168 68C146 90 122 130 112 166" stroke="url(#trail07b)" stroke-width="22" stroke-linecap="round" />
+  <path d="M60 138C92 114 126 96 158 90C140 108 118 140 110 168" stroke="url(#trail07b_core)" stroke-width="8" stroke-linecap="round" opacity="0.95" />
+  <circle cx="112" cy="170" r="12" fill="#F6F1FF" />
+  <circle cx="168" cy="68" r="8" fill="#B9A0FF" />
+</svg>

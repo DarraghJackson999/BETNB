@@ -1,0 +1,26 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="orbitGlow" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#a88bff" stop-opacity="0.7" />
+      <stop offset="65%" stop-color="#6140d4" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#190f37" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="orbitRing" x1="22%" y1="18%" x2="86%" y2="82%">
+      <stop offset="0%" stop-color="#f5ecff" />
+      <stop offset="50%" stop-color="#bca0ff" />
+      <stop offset="100%" stop-color="#5937d6" />
+    </linearGradient>
+    <linearGradient id="orbitInner" x1="32%" y1="24%" x2="70%" y2="88%">
+      <stop offset="0%" stop-color="#201344" stop-opacity="0.05" />
+      <stop offset="60%" stop-color="#201344" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#170d33" stop-opacity="0.75" />
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="48" fill="#080415" />
+  <circle cx="80" cy="80" r="64" fill="url(#orbitGlow)" />
+  <circle cx="80" cy="80" r="52" stroke="url(#orbitRing)" stroke-width="10" stroke-dasharray="160 60" stroke-linecap="round" />
+  <ellipse cx="82" cy="76" rx="36" ry="30" stroke="#8c6bff" stroke-opacity="0.35" stroke-width="4" transform="rotate(18 82 76)" />
+  <circle cx="80" cy="80" r="30" fill="url(#orbitInner)" />
+  <circle cx="56" cy="52" r="5" fill="#f5ecff" opacity="0.42" />
+  <circle cx="108" cy="94" r="4" fill="#bca0ff" opacity="0.32" />
+</svg>
