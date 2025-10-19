@@ -154,7 +154,15 @@ export default function Home() {
           the current label as authoritative.
         </p>
         <div className="mt-6 inline-flex items-center gap-3 rounded-2xl border border-dashed border-[rgba(127,91,255,0.45)] bg-[rgba(18,12,45,0.78)] px-6 py-4 text-sm text-[#d7c6ff]">
-          Coin Address <span className="font-mono text-white">TBA</span>
+          Coin Address
+          <a
+            href="https://bscscan.com/address/0xa228a1c2b79375dbb9ee26c0c04fa9e09d424444"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-mono text-white underline decoration-dotted underline-offset-4 hover:text-[#9ad8ff]"
+          >
+            0xa228a1c2b79375dbb9ee26c0c04fa9e09d424444
+          </a>
         </div>
       </section>
     </div>
